@@ -157,12 +157,25 @@ if (count($params) == 3) {
 	$sitecss [] = 'sport';
 	$metatitle = 'East-West - Utazási és Sport Iroda EW utazás, utazások, egyéni síutak, körutazás';
 	$metakeyword = 'East West utazási és sport iroda, EW utazás, www.ewutazas.hu, utazások, egyéni, síutak, körutazás, hajós, autóbuszos, nászutak, párizs, egyiptom, usa, ciprus, dominika';
-	switch ($params [0]) {
-		case 'sport':
+	if($params[0] == 'sport'){
+		if($params[1] == 'hirek') {
 			$_GET ['menu_type'] = 2;
 			$_GET ['page'] = 'php/hirek_cikk.php';
 			include 'index.php';
 			die();
+		}
+		if($params[2] == 'fcbarcelona'){
+			$_GET ['menu_type'] = 2;
+			$_GET ['page'] = 'php/fcbarcelona.php';
+			include 'index.php';
+			die();
+		}
+		elseif($params[2] == 'gyorietovip'){
+			$_GET ['menu_type'] = 2;
+			$_GET ['page'] = 'php/gyorietovip.php';
+			include 'index.php';
+			die();
+		}
 	}
 }
 if (count($params) == 4) {
