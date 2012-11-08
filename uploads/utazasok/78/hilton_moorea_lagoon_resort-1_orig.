@@ -1,0 +1,713 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Francia Polinézia utazás, Moorea utazás, Hilton Moorea Lagoon Resort *****</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Francia Polinézia, Moorea, Hilton Moorea Lagoon Resort *****, utazás, utazási ajánlat">
+<meta name="description" content="Online utazási ajánlat: Francia Polinézia - Moorea - Hilton Moorea Lagoon Resort *****">
+<meta name="author" content="MORTONS LEGI UTAZASI IRODA KFT - www.mortons.hu">
+<meta name="publisher" content="MORTONS LEGI UTAZASI IRODA KFT - www.mortons.hu">
+<meta name="copyright" content="Copyright mortons legi utazasi iroda kft - www.mortons.hu, All Rights Reserved">
+<meta name="reply-to" content="informatika@mortons.hu">
+<meta name="rating" content="All">
+<meta name="date" content="Wed, 9 Sep 2009 22:16:29+0200">
+<meta name="CATEGORY" content="home page">
+<meta name="audience" content="General">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="generator" content="mortons engine">
+<link rel="icon" href="https://www.mortons.hu/favicon.ico">
+<link rel="shortcut icon" href="https://www.mortons.hu/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://www.mortons.hu/css/reset.css">
+<link rel="stylesheet" type="text/css" href="https://www.mortons.hu/css/1200.css">
+<script type="text/javascript" src="https://www.mortons.hu/js/jquery-min.js"></script>
+<script type='text/javascript' src='https://www.mortons.hu/js/jquery-ui.min.js'>
+</script>
+<link rel="stylesheet" type="text/css" href="https://www.mortons.hu/css/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="https://www.mortons.hu/css/mortons2010.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="https://www.mortons.hu/css/mortons2010-ie6.css">
+<![endif]-->
+<!--[if lt IE 8]>
+<script type="text/javascript"> 
+/*  */
+    var IE6UPDATE_OPTIONS = {
+        icons_path: "https://www.mortons.hu/images/no-ie6/",
+        message: "Internet Explorer-t frissíteni kell ahhoz, hogy tökéletesen meg tudja tekinteni ezt az oldalt. Ide kattintva frissítheti... "        
+    }
+/*  */
+</script>
+<script type="text/javascript" src="https://www.mortons.hu/js/ie6update.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://www.mortons.hu/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://www.mortons.hu/js/jquery.form.js"></script>
+<script type="text/javascript">
+/*  */
+$(document).ready(function(){
+		$("#sms_subscribe").ajaxForm({
+			dataType: 'json',
+			 success: function(responseData, statusText) {
+				//alert(responseData+' '+statusText);
+				if (responseData.success == 1) {
+					$('#sms_verify').show();
+					$('#sms_success').hide();
+					$('#sms_subscribe').hide();
+					$('#subscribe_error').text('');
+					$('#verify_error').text('');
+				} else {
+					$('#subscribe_error').text(responseData.errortxt);
+				}
+			} 
+
+		});
+		$("#sms_verifycode").ajaxForm({
+			dataType: 'json',
+			 success: function(responseData, statusText) {
+				//alert(responseData+' '+statusText);
+				if (responseData.success == 1) {
+					$('#sms_subscribe').hide();
+					$('#sms_verify').hide();
+					$('#sms_success').show();
+					$('#subscribe_error').text('');
+					$('#verify_error').text('');
+				} else {
+					$('#verify_error').text(responseData.errortxt);
+				}
+			} 
+
+		});
+});
+/*  */
+</script>
+<style type="text/css">
+/*  */
+#top_pic_back {
+	background-image: url('https://www.mortons.hu/css/web/main_back_sms.jpg');
+}
+#top_logo {
+	background-image: url('https://www.mortons.hu/css/web/top_log_back_sms.jpg');
+}
+/*  */
+</style>
+<style type="text/css">
+/**/
+#hoteldetail {
+	padding: 10px 30px;
+}
+#hoteltitle {
+	line-height: 1.5em;
+}
+.hotel_pics img {
+	border: 1px solid #afa5a0;
+	padding: 1px; margin: 5px;
+}
+.calc_field { width: 20px; }
+#priceinfo th {
+	text-align: right;
+}
+#priceinfo td {
+	text-align: right;
+}
+/**/
+</style>
+</head>
+<body>
+<div class="container_24" id="container">
+  <div class="grid_20" id="main_container_center">
+    <div class="grid_20 alpha omega" id="top_logo">
+    	 <div class="grid_12 alpha"><a href="https://www.mortons.hu/fooldal.html"><img src="https://www.mortons.hu/css/web/top_logo.jpg" alt="Morton's Légi Utazási Iroda"></a></div>
+        <div class="grid_8 omega" style="text-align: right; width: 424px; padding-top:30px; font-size: 36px; color: #700116">20/931-0088</div>
+	    <div class="clear">&nbsp;</div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="top_pic_back">
+		<div style="position: absolute; left:0; top: 130px; padding: 20px; font-style: italic;"><table><tr><td width="320" valign="top">Adja meg a telefonszámát, és mi minden héten <br>
+elküldjük SMS-ben a legjobb ajánlatainkat:</td><td valign="bottom" width="640">
+	<form action="/sms_subscribe.php" method="GET" id="sms_subscribe">
+    <br>
+    <select name="county_code">
+    <option value="20">+36 20</option>
+    <option value="30">+36 30</option>
+    <option value="70">+36 70</option>        
+    </select>
+    <input name="phone" type="text" maxlength="7">
+    <span class="button" style="margin-left: 10px;"> <span class="l"> </span> <span class="r"> </span>
+          <input type="submit" name="submit" value="Elküld">
+        </span>
+         <span class="button3" style="margin-left: 0px"> <span class="l"> </span> <span class="r"> </span>
+          <a href="/sms.html">Részletek</a>
+        </span> 
+        <span id="subscribe_error" style="color: red;"></span>
+    </form>
+    <span id="sms_verify" style="display:none">
+	<form action="/sms_subscribe.php" method="GET" id="sms_verifycode">
+    <label>Kérem adja meg az SMS-ben kapott ellenőrzőkódot:</label>
+    <input name="verifycode" type="text" maxlength="4">
+    <span class="button"> <span class="l"> </span> <span class="r"> </span>
+          <input type="submit" name="verify" value="Ellenőriz">
+        </span> <br>
+         <span id="verify_error" style="color: red;"></span>
+        </form>
+    </span>
+    <span id="sms_success" style="display:none"><br>Sikeresen feliratkozott!</span>    
+</td></tr></table></div>
+    
+      <div id="top_pic">
+        <div id="sub_container">        
+          <div class="grid_20 alpha omega" id="top_menu">
+            <ul>
+              <li><a href='http://www.mortons.hu/fooldal.html' title="Főoldal"><span>Főoldal</span></a></li>
+              <li><a href='http://www.mortons.hu/repulojegy.html' title="Repülőjegy"><span>Repülőjegy</span></a></li>
+              <li><a href='http://www.mortons.hu/szolgaltatasok.html' title="Szolgáltatások"><span>Szolgáltatások</span></a></li>
+              <li><a href="http://www.mortons.hu/utazasi_ajanlatok/utazasi_ajanlatok.html" title="Utazási ajánlatok"><span>Utazási ajánlatok</span></a></li>
+              <li><a href='http://www.mortons.hu/utazasi_tipusok.html' title="Utazási típusok"><span>Utazási típusok</span></a></li>
+              <li><a href='http://www.mortons.hu/orszaginfo.html' title="Országinfo"><span>Országinfo</span></a></li>
+              <li><a href='http://www.mortons.hu/hasznos_informaciok.html' title="Hasznos infók"><span>Hasznos infók</span></a></li>
+              <li><a href="http://www.mortons.hu/cegeknek.html" title="Cégeknek"><span>Cégeknek</span></a></li>
+            </ul>
+            <div class="clear">&nbsp;</div>
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div class="grid_5 alpha" id="left_menu">
+            <div class="sidebox"> <div class="tl"></div> <div class="tr"></div> <div class="bl"></div> <div class="br"></div> <div class="tc"></div> <div class="bc"></div> <div class="lc"></div> <div class="rc"></div>
+              <div class="c">
+                <ul id="left_navbar">
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/amerikai_egyesult_allamok_utazas.html">Amerikai Egyesült Államok (48)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/argentina_utazas.html">Argentína (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/ausztralia_utazas.html">Ausztrália (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/ausztria_utazas.html">Ausztria (991)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/bahama-szigetek_utazas.html">Bahama-szigetek (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/belgium_utazas.html">Belgium (10)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/bosznia-_hercegovina_utazas.html">Bosznia- Hercegovina (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/brazilia_utazas.html">Brazília (15)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/bulgaria_utazas.html">Bulgária (100)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/burma_utazas.html">Burma (3)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/chile_utazas.html">Chile (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/ciprus_utazas.html">Ciprus (36)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/costa_rica_utazas.html">Costa Rica (5)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/csehorszag_utazas.html">Csehország (93)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/dania_utazas.html">Dánia (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/del-afrikai_koztarsasag_utazas.html">Dél-Afrikai Köztársaság (8)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/dominikai_koztarsasag_utazas.html">Dominikai Köztársaság (24)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/ecuador_utazas.html">Ecuador (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/egyesult_arab_emiratusok_utazas.html">Egyesült Arab Emirátusok (54)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/egyiptom_utazas.html">Egyiptom (546)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/eszak_korea_utazas.html">Észak Korea (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/esztorszag_utazas.html">Észtország (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/etiopia_utazas.html">Etiópia (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/finnorszag_utazas.html">Finnország (6)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas.html">Francia Polinézia (14)</a>
+                                                                              <li class="menu2"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/bora_bora_utazas.html">Bora Bora (4)</a>
+                                                            </li>
+                                                        <li class="menu2"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas.html">Moorea (6)</a>
+                               
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/hilton_moorea_lagoon_resort__114546.html">Hilton Moorea Lagoon Resort *****</a></li>
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/hilton_moorea_lagoon_resort__114547.html">Hilton Moorea Lagoon Resort *****</a></li>
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/moorea_pearl_resort_and_spa__63321.html">Moorea Pearl Resort and Spa *****</a></li>
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/moorea_pearl_resort_and_spa__114548.html">Moorea Pearl Resort and Spa *****</a></li>
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/tahiti_-_naszutas_program_i._114495.html">Tahiti - Nászutas program I.</a></li>
+                                                                    <li class="menu3"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/moorea_utazas/tahiti_-_naszutas_program_ii._114497.html">Tahiti - Nászutas program II.</a></li>
+                                                                                              </li>
+                                                        <li class="menu2"> <a href="/utazasi_ajanlatok/francia_polinezia_utazas/papeete_utazas.html">Papeete (4)</a>
+                                                            </li>
+                                                                  </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/franciaorszag_utazas.html">Franciaország (401)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/gorogorszag_utazas.html">Görögország (146)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/hajoutak_utazas.html">Hajóutak (86)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/hollandia_utazas.html">Hollandia (22)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/horvatorszag_utazas.html">Horvátország (165)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/india_utazas.html">India (48)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/indonezia_utazas.html">Indonézia (90)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/iran_utazas.html">Irán (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/irorszag_utazas.html">Írország (9)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/izland_utazas.html">Izland (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/izrael_utazas.html">Izrael (47)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/jamaika_utazas.html">Jamaika (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/japan_utazas.html">Japán (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/jemen_utazas.html">Jemen (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/jordania_utazas.html">Jordánia (37)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/kambodzsa_utazas.html">Kambodzsa (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/karib_szigetek_utazas.html">Karib szigetek (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/kenya_utazas.html">Kenya (32)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/kina_utazas.html">Kína (15)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/kuba_utazas.html">Kuba (118)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/laosz_utazas.html">Laosz (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/lengyelorszag_utazas.html">Lengyelország (34)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/magyarorszag_utazas.html">Magyarország (243)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/malajzia_utazas.html">Malajzia (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/maldiv-szigetek_utazas.html">Maldív-szigetek (47)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/mali_utazas.html">Mali (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/malta_utazas.html">Málta (41)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/marokko_utazas.html">Marokkó (3)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/mauritius_utazas.html">Mauritius (38)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/mexiko_utazas.html">Mexikó (37)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/montenegro_utazas.html">Montenegro (10)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/nagy-britannia_utazas.html">Nagy-Britannia (74)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/namibia_utazas.html">Namíbia (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/nemetorszag_utazas.html">Németország (68)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/nepal_utazas.html">Nepál (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/olaszorszag_utazas.html">Olaszország (801)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/oman_szultansag_utazas.html">Omán Szultánság (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/oroszorszag_utazas.html">Oroszország (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/panama_utazas.html">Panama (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/peru_utazas.html">Peru (4)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/portugalia_utazas.html">Portugália (106)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/romania_utazas.html">Románia (9)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/seychelle_szigetek_utazas.html">Seychelle szigetek (12)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/spanyolorszag_utazas.html">Spanyolország (269)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/sri_lanka_utazas.html">Sri Lanka (47)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/svajc_utazas.html">Svájc (49)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/svedorszag_utazas.html">Svédország (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/szingapur_utazas.html">Szingapúr (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/sziria_utazas.html">Szíria (8)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/szlovakia_utazas.html">Szlovákia (102)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/szlovenia_utazas.html">Szlovénia (144)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/tanzania_utazas.html">Tanzánia (31)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/thaifold_utazas.html">Thaiföld (346)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/tibet_utazas.html">Tibet (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/torokorszag_utazas.html">Törökország (149)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/tunezia_utazas.html">Tunézia (106)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/uganda_utazas.html">Uganda (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/uj-zeland_utazas.html">Új-Zéland (2)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/ukrajna_utazas.html">Ukrajna (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/uzbegisztan_utazas.html">Üzbegisztán (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/venezuela_utazas.html">Venezuela (12)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/vietnam_utazas.html">Vietnám (18)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/zimbabwe_utazas.html">Zimbabwe (1)</a>
+                                        </li>
+                                    <li class="menu"> <a href="/utazasi_ajanlatok/zold-foki_koztarsasag_utazas.html">Zöld-Foki Köztársaság (16)</a>
+                                        </li>
+                                  </ul>
+                <div class="menulevel1"> </div>
+                <div id="callback">
+                  <div class="title">Visszahívás kérése</div>
+                  <form name="VISSZAHIVAS" action="http://www.mortons.hu/kapcsolat.php?HT=1" method="post">
+                    <label>N&eacute;v:</label>
+                    <input type="text" id="NEV" class="vhivas" name="NEV" size="20">
+                    <br>
+                    <label>Telefon:</label>
+                    <input type="text" id="TELEFON" class="vhivas" name="TELEFON" size="20">
+                    <br>
+                    <label>E-mail:</label>
+                    <input type="text" id="EMAIL" class="vhivas" name="EMAIL" size="20">
+                    <br>
+                    <label class="width">Visszahívás témája:</label>
+                    <br>
+                    <select class="vhivas3" name="MIROL">
+                      <option value="Rep&uuml;l&ouml;jegy" selected="selected">Repülőjegy</option>
+                      <option value="Utaz&aacute;s">Utazás</option>
+                    </select>
+                    <span class="button"> <span class="l"> </span> <span class="r"> </span>
+                      <input onClick="return ellenoriz()" type="submit" value="Visszahívást kérek">
+                    </span>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid_15"> <script type="text/javascript">
+hova=""
+
+function jelenik(hely,feladat,kod) { 
+	hova=hely
+	
+	if (feladat==1) $('#k_accomodation').removeOption(/./);
+	$('#k_trip_kind').removeOption(/./);
+	if (kod==0) return false
+
+	var par = {'kod':$.URLEncode(kod),'feladat':feladat,'orszag':$.URLEncode($('#filter_m1').val())};
+
+	$.getJSON("/lekerdez.php", par, 
+        function(data){
+			$('#' + hova).addOption({"Válassz!":"Válassz!"}, true);
+			$('#' + hova).addOption(data, false);
+        });
+	
+	//$('#' + hova).ajaxAddOption("/lekerdez.php", par, false);
+} 
+
+$.extend({URLEncode:function(c){var o='';var x=0;c=c.toString();var r=/(^[a-zA-Z0-9_.]*)/;
+  while(x<c.length){var m=r.exec(c.substr(x));
+    if(m!=null && m.length>1 && m[1]!=''){o+=m[1];x+=m[1].length;
+    }else{if(c[x]==' ')o+='+';else{var d=c.charCodeAt(x);var h=d.toString(16);
+    o+='%'+(h.length<2?'0':'')+h.toUpperCase();}x++;}}return o;},
+URLDecode:function(s){var o=s;var binVal,t;var r=/(%[^%]{2})/;
+  while((m=r.exec(o))!=null && m.length>1 && m[1]!=''){b=parseInt(m[1].substr(1),16);
+  t=String.fromCharCode(b);o=o.replace(m[1],t);}return o;}
+});
+
+function load_date(date_id){
+	$('#priceinfo').load('orszag.php?set_date='+date_id);
+}
+
+/**/</script>
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css" media="screen">
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript">/**/
+    $(function() {
+        $('.hotel_pics a').lightBox();
+    });
+	$(document).ready( function() { 
+		//valasztas(); 
+		$('#product-price-selecter').change(function(){
+			$('#priceinfo').load('/orszag.php?set_date='+$(this).val(), function(){
+				calc_price();
+				$('#other_info2').html($('#other_info').html());
+				$('.calc_field').change(function(){
+					calc_price();
+				});
+			});
+		});
+		$('#product-price-selecter').change();
+	} );
+	function calc_price(){
+		var price;
+		var sum_person;
+		var other_price;
+		var child_price;
+		price = intval($('#adults_price').val())*intval($('#adults').val());
+		$('#adults_price_sum').html(number_format(price, 0, ',', ' ')+' Ft');
+		sum_person = intval($('#adults').val());
+		$('.children_price').each(function(){
+			child_price = intval($(this).val())*intval($('#'+$(this).attr('id').replace('_price', '')).val());
+			price = price + child_price;
+			sum_person = sum_person + intval($('#'+$(this).attr('id').replace('_price', '')).val());
+			$('#'+$(this).attr('id')+'_sum').html(number_format(child_price, 0, ',', ' ')+' Ft');
+		})
+		$('.other_prices').each(function(){
+			$('#'+$(this).attr('id').replace('_price', '_qty')).html(sum_person);
+			other_price = intval(sum_person)*intval($(this).val());
+			$('#'+$(this).attr('id')+'_sum').html(number_format(other_price.toString(), 0, ',', ' ')+' Ft');
+			price = price + other_price;
+		});
+		$('#product-price-number').html(price);
+		$('#price_sum').html(number_format(price, 0, ',', ' ')+' Ft');
+		//$('#product-price').show();
+		$('#reserve_button').removeAttr('disabled');
+	}
+	function intval (mixed_var, base) {
+		// Get the integer value of a variable using the optional base for the conversion  
+		// 
+		// version: 1008.1718
+		// discuss at: http://phpjs.org/functions/intval    
+		// +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+		// +   improved by: stensi
+		// +   bugfixed by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+		// +   input by: Matteo
+		// +   bugfixed by: Brett Zamir (http://brett-zamir.me)    
+		// *     example 1: intval('Kevin van Zonneveld');
+		// *     returns 1: 0
+		// *     example 2: intval(4.2);
+		// *     returns 2: 4
+		// *     example 3: intval(42, 8);    
+		// *     returns 3: 42
+		// *     example 4: intval('09');
+		// *     returns 4: 9
+		// *     example 5: intval('1e', 16);
+		// *     returns 5: 30    var tmp;
+	 
+		var type = typeof( mixed_var );
+	 
+		if (type === 'boolean') {        return (mixed_var) ? 1 : 0;
+		} else if (type === 'string') {
+			tmp = parseInt(mixed_var, base || 10);
+			return (isNaN(tmp) || !isFinite(tmp)) ? 0 : tmp;
+		} else if (type === 'number' && isFinite(mixed_var) ) {        return Math.floor(mixed_var);
+		} else {
+			return 0;
+		}
+	} 
+
+function number_format(number, decimals, dec_point, thousands_sep) {
+    // Formats a number with grouped thousands  
+    // 
+    // version: 1009.820
+    // discuss at: http://phpjs.org/functions/number_format    // +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
+    // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+    // +     bugfix by: Michael White (http://getsprink.com)
+    // +     bugfix by: Benjamin Lupton
+    // +     bugfix by: Allan Jensen (http://www.winternet.no)    // +    revised by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
+    // +     bugfix by: Howard Yeend
+    // +    revised by: Luke Smith (http://lucassmith.name)
+    // +     bugfix by: Diogo Resende
+    // +     bugfix by: Rival    // +      input by: Kheang Hok Chin (http://www.distantia.ca/)
+    // +   improved by: davook
+    // +   improved by: Brett Zamir (http://brett-zamir.me)
+    // +      input by: Jay Klehr
+    // +   improved by: Brett Zamir (http://brett-zamir.me)    // +      input by: Amir Habibi (http://www.residence-mixte.com/)
+    // +     bugfix by: Brett Zamir (http://brett-zamir.me)
+    // +   improved by: Theriault
+    // +      input by: Amirouche
+    // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)    // *     example 1: number_format(1234.56);
+    // *     returns 1: '1,235'
+    // *     example 2: number_format(1234.56, 2, ',', ' ');
+    // *     returns 2: '1 234,56'
+    // *     example 3: number_format(1234.5678, 2, '.', '');    // *     returns 3: '1234.57'
+    // *     example 4: number_format(67, 2, ',', '.');
+    // *     returns 4: '67,00'
+    // *     example 5: number_format(1000);
+    // *     returns 5: '1,000'    // *     example 6: number_format(67.311, 2);
+    // *     returns 6: '67.31'
+    // *     example 7: number_format(1000.55, 1);
+    // *     returns 7: '1,000.6'
+    // *     example 8: number_format(67000, 5, ',', '.');    // *     returns 8: '67.000,00000'
+    // *     example 9: number_format(0.9, 0);
+    // *     returns 9: '1'
+    // *    example 10: number_format('1.20', 2);
+    // *    returns 10: '1.20'    // *    example 11: number_format('1.20', 4);
+    // *    returns 11: '1.2000'
+    // *    example 12: number_format('1.2000', 3);
+    // *    returns 12: '1.200'
+    // *    example 13: number_format('1 000,50', 2, '.', ' ');    // *    returns 13: '100 050.00'
+    number = (number+'').replace(',', '').replace(' ', '');
+    var n = !isFinite(+number) ? 0 : +number, 
+        prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+        sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,        dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+        s = '',
+        toFixedFix = function (n, prec) {
+            var k = Math.pow(10, prec);
+            return '' + Math.round(n * k) / k;        };
+    // Fix for IE parseFloat(0.55).toFixed(0) = 0;
+    s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+    if (s[0].length > 3) {
+        s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep);    }
+    if ((s[1] || '').length < prec) {
+        s[1] = s[1] || '';
+        s[1] += new Array(prec - s[1].length + 1).join('0');
+    }    return s.join(dec);
+} 
+
+/**/</script>
+<div class="sidebox"> <span class="tl"></span> <span class="tr"></span> <span class="bl"></span> <span class="br"></span> <span class="tc"></span> <span class="bc"></span> <span class="lc"></span> <span class="rc"></span>
+  <div class="c">
+    <div class="addthis_toolbox addthis_default_style" style="float: right; margin-top: 10px"> <a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact">Megosztás</a> <span class="addthis_separator"> </span> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a> <a class="addthis_button_googlebuzz"></a> <a class="addthis_button_email"></a> <span class="addthis_separator"> </span> <a class="addthis_button_facebook_like"></a></div>
+    <form action="/Checkout.php" method="post" id="addtobasket">
+      <input type="hidden" id="product_code" value="114546">
+      <input type="hidden" id="vendor_product_code" value="">
+      <input type="hidden" id="product_date_code" value="">
+      <input type="hidden" name="product_code" value="114546">
+      <input type="hidden" name="m1" value="Francia Polinézia">
+      <input type="hidden" name="m2" value="5363">
+      <input type="hidden" name="hotel" value="">
+      <input type="hidden" name="accomodation" value="Reggeli">
+      <input type="hidden" name="trip_kind" value="Egyéni">
+      <input type="hidden" value="114546||Francia Polinézia|5363||Egyéni|Reggeli">
+      <div id="hoteldetail">
+      <h1 id="hoteltitle"><a href="/utazasi_ajanlatok/francia_polinezia.html">Francia Polinézia</a> &gt; <a  href="/utazasi_ajanlatok/francia_polinezia/moorea.html">Moorea</a> &gt; Hilton Moorea Lagoon Resort <img src="/images/hotel_disp/hotelstar.gif" border="0" alt="*"><img src="/images/hotel_disp/hotelstar.gif" border="0" alt="*"><img src="/images/hotel_disp/hotelstar.gif" border="0" alt="*"><img src="/images/hotel_disp/hotelstar.gif" border="0" alt="*"><img src="/images/hotel_disp/hotelstar.gif" border="0" alt="*"></h1>
+      <div style="padding-left: 10px; padding-top: 10px">
+      	<table width="95%">
+        	<tr><td>
+            <table>
+          <tr><th width="180" align="left">Utazás: </th><td><span class="highlighttext">Egyéni</span></td></tr>
+          <tr><th width="180" align="left">Ellátás:</th><td><span class="highlighttext">Reggeli</span></td></tr>
+          <tr><th width="180" align="left">Utazás típusa:</th><td><span class="highlighttext">Búvárkodás</span></td></tr>                    <tr><th width="180" align="left">Hivatkozási szám:</th><td><span class="highlighttext">114546</span></td></tr>
+          </table>
+          <div id="other_info2"></div>
+          </td>
+          <td></td>
+          </tr>
+        </table>        
+        <input type="hidden" name="mortons-shop-field-duration" id="mortons-shop-field-duration" value="">
+         <div id="priceinfo"></div>
+         <hr>
+        <p style="margin: 0; font-size: 13px; font-weight: bold">
+          <label for="product-price-selecter">Időpont és szoba típusa:</label>
+          <select name="toligar" id="product-price-selecter" style="width:300px; font-size: 14px" ><option selected>Válasszon időpontot!</option><option value='25333784'>2010-11-01-2011-03-31 2 ágyas - Ft/fő</option><option value='25333785'>2010-11-01-2011-03-31 2 ágyas - Ft/fő</option><option value='25333788'>2010-11-01-2011-03-31 2 ágyas - Ft/fő</option><option value='25333782' selected>2011-04-01-2011-05-31 2 ágyas - Ft/fő</option><option value='25333786'>2011-04-01-2011-05-31 2 ágyas - Ft/fő</option><option value='25333789'>2011-04-01-2011-05-31 2 ágyas - Ft/fő</option><option value='25333783'>2011-06-01-2011-10-31 2 ágyas - Ft/fő</option><option value='25333787'>2011-06-01-2011-10-31 2 ágyas - Ft/fő</option><option value='25333790'>2011-06-01-2011-10-31 2 ágyas - Ft/fő</option></select>
+<!--script type="text/javascript">
+	function valasztas() {
+	if (document.getElementById("toligar").selectedIndex == 1){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('290,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('290,000');
+}if (document.getElementById("toligar").selectedIndex == 2){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('420,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('420,000');
+}if (document.getElementById("toligar").selectedIndex == 3){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('490,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('490,000');
+}if (document.getElementById("toligar").selectedIndex == 4){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('235,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('235,000');
+}if (document.getElementById("toligar").selectedIndex == 5){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('335,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('335,000');
+}if (document.getElementById("toligar").selectedIndex == 6){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('385,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('385,000');
+}if (document.getElementById("toligar").selectedIndex == 7){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('270,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('270,000');
+}if (document.getElementById("toligar").selectedIndex == 8){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('360,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('360,000');
+}if (document.getElementById("toligar").selectedIndex == 9){
+$('#mortons-shop-field-duration').val('5'); $('#mortons-shop-duration').text('5'); $('#product-price-format').val('435,000'); $('#product-price').show(); $('#reserve_button').removeAttr('disabled'); $('#product-price span').text('435,000');
+}}
+	</script-->
+	
+      <span class="button"> <span class="l"> </span> <span class="r"> </span> <input type="submit"  name="submit" id="reserve_button" disabled value="Foglalás"></span>
+         </p>
+      </div>
+      <span id="product-price" style="display:none;"><strong>Ár:</strong> <span style="color: #900c0c; font-size: 18px; font-weight: bold" id="product-price-number"></span><em></em></span>
+      <input type="hidden" name="product_price_format" id="product-price-format" value="">
+      <hr>
+      <div class="hotel_pics" style="padding: 10px 45px 0px"><a rel="lightbox[slide]" about="blank" caption="" resize="1" href="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton3.jpg"><img alt="" width="150" height="150" border="0" src="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton3.jpg" /></a><a rel="lightbox[slide]" about="blank" caption="" resize="1" href="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton2.jpg"><img alt="" width="150" height="150" border="0" src="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton2.jpg" /></a><a rel="lightbox[slide]" about="blank" caption="" resize="1" href="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton1.jpg"><img alt="" width="150" height="150" border="0" src="http://backend.aleph.hu/travelmax/public_html/gallery/298636/hilton1.jpg" /></a></div>
+      <p align=left><P align=left><STRONG>Elhelyezkedés:</STRONG> a repülőtértől kb. 5-10 perc transzferre található a szálloda. A sziget északi részén a Cook és az Opunohu öböl között fekszik. Tengerpartja fehérhomokos. Tahitiről hajóút kb. 30 perc. A 2000-ben nyílt szálloda a Sheraton szállodalánc tagja de nemrég a Hilton vette át az üzemeltetését. <BR><STRONG>Szolgáltatások</STRONG>: recepció, lobbi, étterem, bár, fitness terem, teniszpálya, Mandara spa, medence, vízi sportok, ajándékbolt.<BR><STRONG> Szobák felszereltsége:</STRONG> 52 kerti és óceánparti bungaló, 54 vízfeletti bungaló. terasz, légkondicionáló, mini bár, televízió, cd-lejátszó, széf, tea-és kávéfőző, fürdőszoba, hajszárítóval.</P><br></p>
+      <p><em>Az ajánlat tájékoztató jellegű.</em></p>
+      <p><em>Az alapár szolgáltatásai a kiválasztott időpont függvényében változhatnak.</em></p>
+      <p align="right"></p>      
+      </div>
+      <input type="hidden" id="product-cat" name="product_cat" value="Francia Polinézia">
+    </form>
+  </div>
+</div> </div>
+          <div class="clear">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div id="footer_menu">
+      <div class="grid_20 alpha omega"> <a href="http://www.mortons.hu/fooldal/ajanlom_az_oldalt.html" class="fejlec1">Ajánlom az oldalt</a> | <a href="http://www.mortons.hu/fooldal.html" onclick="urchinTracker('Kedvencek.koze');if(window.external){window.external.AddFavorite('http://www.mortons.hu/','MORTONS repü1lőjegy foglalás');return false;}" rel="sidebar" title="MORTON repülőjegy foglalás" class="fejlec1">Kedvencek közé</a> | <a href="http://www.mortons.hu/fooldal.html" onclick="if(window.external){this.style.behavior=url('#default#homepage');this.setHomePage(location.href);}" class="fejlec1">Kezdőlapnak</a> | <a href="http://www.mortons.hu/fooldal/hirlevel.html" class="fejlec1">Hírlevél</a> | <a href="http://www.mortons.hu/fooldal/kapcsolat.html" class="fejlec1">Kapcsolat</a> | <a href="http://www.mortons.hu/oldalterkep.html" class="fejlec1">Oldaltérkép</a> | <a href="http://www.mortons.hu/fooldal/elerhetosegeink.html">Elérhetőségeink</a> | <a href="http://www.partykft.hu">Partnerünk</a></div>
+      <div class="clear">&nbsp;</div>
+    </div>
+    <div id="footer">
+      <div class="grid_4 alpha">
+        <p><a class="lablecrepj" href='http://amszterdam.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Amszterdam repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://barcelona.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Barcelona repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://brusszel.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Brüsszel repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://chicago.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Chicago repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://delhi.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html.html'>Delhi repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://dublin.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Dublin repülőjegy foglalás</a> </p>
+      </div>
+      <div class="grid_4">
+        <p> <a class="lablecrepj" href='http://frankfurt.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Frankfurt repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://havanna.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Havanna repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://hong_kong.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Hong Kong repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://isztambul.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Isztambul repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://las_vegas.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Las Vegas repülőjegy foglalás<br>
+          </a> <a class="lablecrepj" href='http://london.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>London repülőjegy foglalás</a> </p>
+      </div>
+      <div class="grid_4">
+        <p> <a class="lablecrepj" href='http://los_angeles.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Los Angeles repülőjegy foglalás</a><br>
+          <a class="lablecrepj" href='http://malaga.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Malaga repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://miami.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Miami repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://moszkva.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Moszkva repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://new_york.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>New York repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://parizs.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Párizs repülőjegy foglalás</a></p>
+      </div>
+      <div class="grid_4">
+        <p> <a class="lablecrepj" href='http://phuket.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Phuket repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://roma.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Róma repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://rio_da_janeiro.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Rio de Janeiro repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://shanghai.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Shanghai repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://sydney.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Sydney repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://tel_aviv.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Tel Aviv repülőjegy foglalás</a> </p>
+      </div>
+      <div class="grid_4 omega">
+        <p><a class="lablecrepj" href='http://tenerife.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Tenerife repülőjegy foglalás<br>
+          </a> <a class="lablecrepj" href='http://tokio.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Tokió repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://toronto.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Toronto repülőjegy foglalás</a> <br>
+          <a class="lablecrepj" href='http://vancouver.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'>Vancouver repülőjegy foglalás</a> <a class="lablecrepj" href='http://zurich.repulojegy.mortons.hu/repjegy_foglalas_kereso_es_arak.html'><br>
+          Zürich repülőjegy foglalás</a></p>
+      </div>
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">/**/
+try {
+var pageTracker = _gat._getTracker("UA-9475806-2");
+pageTracker._trackPageview();
+} catch(err) {}/**/</script>
+
+<script type="text/javascript">
+/**/
+var addthis_config = { data_ga_tracker: pageTracker };
+/**/
+</script>
+
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=mortons"></script> 
+</body>
+</html>
