@@ -2,10 +2,10 @@
 		<div class="content_side clearfix">
 		
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">
-				<div class="ful_magyar_taborok">Magyar Táborok</div>
+				<div class="ful_magyar_taborok"><?php echo $_SESSION['lang'] == 'en' ? 'Hungarian camps' : 'Magyar Táborok'; ?></div>
 				<div class="clear"></div>
 				<div class="article">
-					<strong>Magyarországi edzőtáborok:</strong><br />
+					<strong><?php echo $_SESSION['lang'] == 'en' ? 'Hungarian training camps' : 'Magyarországi edzőtáborok'; ?>:</strong><br />
 					<br />
 					<div class="table_style table_style_bg clearfix">
 						<div class="col_1">Telki:</div>

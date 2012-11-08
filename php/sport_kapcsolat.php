@@ -2,7 +2,7 @@
 		<div class="content_side clearfix">
 		
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">
-				<div class="ful_kapcsolat">Kapcsolat</div>
+				<div class="ful_kapcsolat"><?php echo $_SESSION['lang'] == 'en' ? 'Contact' : 'Kapcsolat'; ?></div>
 				<div class="clear"></div>
 				<div class="article">
 					<div class="contact_box">
@@ -38,8 +38,8 @@
 						<form name="kapcsolat_form" method="post" action="<?php echo $_SERVER ['REQUEST_URI']; ?>">
 						<input type="hidden" name="SAVE" value="3" />
 						<div class="col_left">
-							<h6>Kérjük, vegye fel velünk a kapcsolatot.</h6>
-							A “<span>*</span>”-gal JELÖLT mezők kitöltése kötelező!
+							<h6><?php echo $_SESSION['lang'] == 'en' ? 'Please contact us.' : 'Kérjük, vegye fel velünk a kapcsolatot.' ?></h6>
+							<?php echo $_SESSION['lang'] == 'en' ? 'Fields marked with “<span>*</span>” are REQUIRED!' : 'A “<span>*</span>”-gal JELÖLT mezők kitöltése kötelező!' ?>
 							<?php
 							if (count ($errors) > 0) { 
 								echo '<br />';
@@ -49,7 +49,7 @@
 							}
 							?>
 							<div class="clear30"></div><div class="clear30"></div>
-							<div class="text">Név<span>*</span></div>
+							<div class="text"><?php echo $_SESSION['lang'] == 'en' ? 'Name' : 'Név' ?><span>*</span></div>
 							<div class="input">
 							<?php echo FormInput ('kapcsolat_nev'); ?>
 							</div>
@@ -57,12 +57,12 @@
 							<div class="text">E-mail<span>*</span></div>
 							<div class="input"><?php echo FormInput ('kapcsolat_email'); ?></div>
 							<div class="clear"></div>
-							<div class="text">Telefon<span>*</span></div>
+							<div class="text"><?php echo $_SESSION['lang'] == 'en' ? 'Phone' : 'Telefon' ?><span>*</span></div>
 							<div class="input"><?php echo FormInput ('kapcsolat_telefon'); ?></div>
 							<div class="clear"></div>
 						</div>
 						<div class="col_right">
-							<div class="text">Üzenet</div>
+							<div class="text"><?php echo $_SESSION['lang'] == 'en' ? 'Message' : 'Üzenet' ?></div>
 							<div class="textarea"><textarea cols="" rows="" name="kapcsolat_uzenet"></textarea></div>
 							<div class="clear"></div>
 						</div>

@@ -218,9 +218,6 @@ a:hover { color:#06bcfc; text-decoration:underline; }
 
 .back { float:left; display:inline; width:200px; margin-left:76px; font-family:ARIALNB, Arial, Helvetica, sans-serif; font-size:12px; color:#555555; text-transform:uppercase; }
 .button_back { float:left; margin-top:10px; }
-.button_back,
-.button_back a { background:url(../img/button_back.png) no-repeat; width:104px; height:30px; display:block; overflow:hidden; text-indent:-1000em; }
-.button_back a:hover { background:url(../img/button_back.png) no-repeat 0 -30px; }
 
 .inquiry_form { font-family:ARIALNB, Arial, Helvetica, sans-serif; font-size:12px; color:#555555; text-transform:uppercase; }
 .inquiry_form .col_left { float:left; width:310px; display:inline; margin-left:120px; }
@@ -308,9 +305,7 @@ a:hover { color:#06bcfc; text-decoration:underline; }
 .contact_form .text { float:left; width:115px; padding-top:3px; }
 .contact_form .col_right .text { width:60px; }
 .contact_form span { color:#df0008; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; }
-.contact_form .button { float:left; display:inline; margin-left:595px; background:url(../img/contact.form.btn.png) no-repeat; width:104px; height:30px; }
 .contact_form .button input { width:104px; height:30px; padding:0px; cursor:pointer; }
-.contact_form .button input:hover { background:url(../img/contact.form.btn.png) no-repeat 0px -30px; }
 
 .ful_galeria,
 .ful_reklam,
@@ -329,23 +324,6 @@ a:hover { color:#06bcfc; text-decoration:underline; }
 .ful_udvozoljuk,
 .ful_hirek,
 .ful_kereso { width:114px; height:114px; text-indent:-1000em; position:absolute; left:0px; top:0px; margin:-5px 0 0 0px; }
-.ful_akcios { background:url(../img/ful.akcios.png) no-repeat; }
-.ful_last_minute { background:url(../img/ful.last.minute.png) no-repeat; }
-.ful_kereso { background:url(../img/ful.kereso.png) no-repeat; }
-.ful_utazasok { background:url(../img/ful.utazasok.png) no-repeat; }
-.ful_kiemelt_ajanlataink { background:url(../img/ful.kiemelt.ajanlataink.png) no-repeat; } /*royal fix code*/
-.ful_ajanlatkeres { background:url(../img/ful.ajanlatkeres.png) no-repeat; }
-.ful_informaciok { background:url(../img/ful.informaciok.png) no-repeat; }
-.ful_partnerek { background:url(../img/ful.partnerek.png) no-repeat; }
-.ful_kapcsolat { background:url(../img/ful.kapcsolat.png) no-repeat; }
-.ful_rolunk { background:url(../img/ful.rolunk.png) no-repeat; }
-.ful_magyar_taborok { background:url(../img/ful.magyar.taborok.png) no-repeat; }
-.ful_kulfoldi_taborok { background:url(../img/ful.kulfoldi.taborok.png) no-repeat; }
-.ful_referenciak { background:url(../img/ful.referenciak.png) no-repeat; }
-.ful_reklam { background:url(../img/ful.reklam.png) no-repeat; }
-.ful_galeria { background:url(../img/ful.galeria.png) no-repeat; }
-.ful_udvozoljuk { background:url(../img/ful.udvozoljuk.jpg) no-repeat; margin:-4px 0 0 -4px; }
-.ful_hirek { background:url(../img/ful.hirek.png) no-repeat; }
 
 
 .seo_text { width:100%; text-align:center; color:#777777; font-size:12px; text-transform:uppercase; font-family:ARIALN; padding-top:5px; line-height:18px; position:absolute; }

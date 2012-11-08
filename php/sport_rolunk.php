@@ -2,25 +2,42 @@
 		<div class="content_side clearfix">
 		
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">
-				<div class="ful_rolunk">Rólunk</div>
-				<div class="clear"></div>
-				<div class="article">
-					A  ma működő cég elődje a HUNGASPORT iroda 1997-ben alakult. Sikeres 12 év tevékenykedés után váltás történt, és 2009 év elejétől immár East-West Sport néven folytatjuk tevékenységünket.<br />
-					<br />
-					Irodánk a sport minden szegmensében vállal szerepet. Fő tevékenységünk az edzőtáborok szervezése Magyarországon és külföldön egyaránt. Elsősorban labdarúgó csapatoknak szervezünk edzőtáborokat, de más sportágak versenyzőinek is bonyolítottuk már a felkészülésüket. Mint például, atlétika, röplabda, kosárlabda.<br />
-					<br />
-					Az edzőtáborok szervezését minden korosztályban és minden sportágban vállaljuk.<br />
-					<br />
-					Foglalkozunk reklámfelületek értékesítésével, szponzorok közvetítésével különböző klubokhoz, sport szervezetekhez.<br />
-					A tevékenységeink körébe tartozik még, játékosok, edzők, gyúrók, orvosok menedzselése, magyarországi és külföldi munkalehetőségek közvetítése.<br />
-					<br />
-					A cégünk, egy munkatársunk révén rendelkezik FIFA Licensszel. <br />
-					<br />
-					<br />
-					<img src="img/rolunk_foto.jpg" alt="" />
-					
-				</div>
-				
+				<?php if($_SESSION['lang'] == 'en'){ ?>
+					<div class="ful_rolunk">About us</div>
+					<div class="clear"></div>
+					<div class="article">
+						About us.English content.
+						<br />
+						Irodánk a sport minden szegmensében vállal szerepet. Fő tevékenységünk az edzőtáborok szervezése Magyarországon és külföldön egyaránt. Elsősorban labdarúgó csapatoknak szervezünk edzőtáborokat, de más sportágak versenyzőinek is bonyolítottuk már a felkészülésüket. Mint például, atlétika, röplabda, kosárlabda.<br />
+						<br />
+						Az edzőtáborok szervezését minden korosztályban és minden sportágban vállaljuk.<br />
+						<br />
+						Foglalkozunk reklámfelületek értékesítésével, szponzorok közvetítésével különböző klubokhoz, sport szervezetekhez.<br />
+						A tevékenységeink körébe tartozik még, játékosok, edzők, gyúrók, orvosok menedzselése, magyarországi és külföldi munkalehetőségek közvetítése.<br />
+						<br />
+						A cégünk, egy munkatársunk révén rendelkezik FIFA Licensszel. <br />
+						<br />
+						<br />
+						<img src="img/rolunk_foto.jpg" alt="" />
+					</div>
+				<?php }else{ ?>
+					<div class="ful_rolunk">Rólunk</div>
+					<div class="clear"></div>
+					<div class="article">
+						A  ma működő cég elődje a HUNGASPORT iroda 1997-ben alakult. Sikeres 12 év tevékenykedés után váltás történt, és 2009 év elejétől immár East-West Sport néven folytatjuk tevékenységünket.<br />
+						<br />
+						Irodánk a sport minden szegmensében vállal szerepet. Fő tevékenységünk az edzőtáborok szervezése Magyarországon és külföldön egyaránt. Elsősorban labdarúgó csapatoknak szervezünk edzőtáborokat, de más sportágak versenyzőinek is bonyolítottuk már a felkészülésüket. Mint például, atlétika, röplabda, kosárlabda.<br />
+						<br />
+						Az edzőtáborok szervezését minden korosztályban és minden sportágban vállaljuk.<br />
+						<br />
+						Foglalkozunk reklámfelületek értékesítésével, szponzorok közvetítésével különböző klubokhoz, sport szervezetekhez.<br />
+						A tevékenységeink körébe tartozik még, játékosok, edzők, gyúrók, orvosok menedzselése, magyarországi és külföldi munkalehetőségek közvetítése.<br />
+						<br />
+						A cégünk, egy munkatársunk révén rendelkezik FIFA Licensszel. <br />
+						<br />
+						<br />
+						<img src="img/rolunk_foto.jpg" alt="" />
+				<?php } ?>				
 			</div></div></div>
 			
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">

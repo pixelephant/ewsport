@@ -2,7 +2,7 @@
 		<div class="content_side clearfix">
 		
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">
-				<div class="ful_referenciak">Referenciák</div>
+				<div class="ful_referenciak"><?php echo $_SESSION['lang'] == 'en' ? 'References' : 'Referenciák'; ?></div>
 				<div class="clear"></div>
 				<div class="article style_ref">
 					<strong class="red">Külföldi edzőtáborokban illetve tornákon:</strong><br />

@@ -1,0 +1,58 @@
+.ful_akcios { background:url(../img/ful.akcios.png) no-repeat; }
+.ful_last_minute { background:url(../img/ful.last.minute.png) no-repeat; }
+.ful_kereso { background:url(../img/ful.kereso.png) no-repeat; }
+.ful_utazasok { background:url(../img/ful.utazasok.png) no-repeat; }
+.ful_kiemelt_ajanlataink { background:url(../img/ful.kiemelt.ajanlataink.png) no-repeat; } /*royal fix code*/
+.ful_ajanlatkeres { background:url(../img/ful.ajanlatkeres.png) no-repeat; }
+.ful_informaciok { background:url(../img/ful.informaciok.png) no-repeat; }
+.ful_partnerek { background:url(../img/ful.partnerek.png) no-repeat; }
+.ful_kapcsolat { background:url(../img/ful.kapcsolat.png) no-repeat; }
+.ful_rolunk { background:url(../img/ful.rolunk.png) no-repeat; }
+.ful_magyar_taborok { background:url(../img/ful.magyar.taborok.png) no-repeat; }
+.ful_kulfoldi_taborok { background:url(../img/ful.kulfoldi.taborok.png) no-repeat; }
+.ful_referenciak { background:url(../img/ful.referenciak.png) no-repeat; }
+.ful_reklam { background:url(../img/ful.reklam.png) no-repeat; }
+.ful_galeria { background:url(../img/ful.galeria.png) no-repeat; }
+.ful_udvozoljuk { background:url(../img/ful.udvozoljuk.jpg) no-repeat; margin:-4px 0 0 -4px; }
+.ful_hirek { background:url(../img/ful.hirek.png) no-repeat; }
+
+.button_back,
+.button_back a { background:url(../img/button_back.png) no-repeat; width:104px; height:30px; display:block; overflow:hidden; text-indent:-1000em; }
+.button_back a:hover { background:url(../img/button_back.png) no-repeat 0 -30px; }
+
+.contact_form .button { float:left; display:inline; margin-left:595px; background:url(../img/contact.form.btn.png) no-repeat; width:104px; height:30px; }
+.contact_form .button input:hover { background:url(../img/contact.form.btn.png) no-repeat 0px -30px; }
+
+/* sport.css */
+
+.logo,
+.logo a { background:url(../img/logo_sport.jpg) no-repeat; }
+
+.h_menu .menu_1,
+.h_menu .menu_1 a { background:url(../img/h.menu.png) no-repeat 0px -78px; width:106px; }
+.h_menu .menu_1 a.act,
+.h_menu .menu_1 a:hover { background:url(../img/h.menu.png) no-repeat 0px -117px; }
+.h_menu .menu_2,
+.h_menu .menu_2 a { background:url(../img/h.menu.png) no-repeat -106px -78px; width:121px; }
+.h_menu .menu_2 a.act,
+.h_menu .menu_2 a:hover { background:url(../img/h.menu.png) no-repeat -106px -117px;}
+.h_menu .menu_3,
+.h_menu .menu_3 a { background:url(../img/h.menu.png) no-repeat -227px -78px; width:128px; }
+.h_menu .menu_3 a.act,
+.h_menu .menu_3 a:hover { background:url(../img/h.menu.png) no-repeat -227px -117px;}
+.h_menu .menu_4,
+.h_menu .menu_4 a { background:url(../img/h.menu.png) no-repeat -355px -78px; width:120px; }
+.h_menu .menu_4 a.act,
+.h_menu .menu_4 a:hover { background:url(../img/h.menu.png) no-repeat -355px -117px;}
+.h_menu .menu_5,
+.h_menu .menu_5 a { background:url(../img/h.menu.png) no-repeat -475px -78px; width:158px; }
+.h_menu .menu_5 a.act,
+.h_menu .menu_5 a:hover { background:url(../img/h.menu.png) no-repeat -475px -117px;}
+.h_menu .menu_6,
+.h_menu .menu_6 a { background:url(../img/h.menu.png) no-repeat -633px -78px; width:205px; }
+.h_menu .menu_6 a.act,
+.h_menu .menu_6 a:hover { background:url(../img/h.menu.png) no-repeat -633px -117px;}
+.h_menu .menu_7,
+.h_menu .menu_7 a { background:url(../img/h.menu.png) no-repeat -838px -78px; width:145px; }
+.h_menu .menu_7 a.act,
+.h_menu .menu_7 a:hover { background:url(../img/h.menu.png) no-repeat -838px -117px;}

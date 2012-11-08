@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="hu" />
+<meta http-equiv="Content-Language" content="<?php echo $_SESSION['lang'] == 'en' ? 'en' : 'hu'; ?>" />
 <meta name="author" content="" />
 <meta name="description" content="<?php echo $metadescription; ?>" />
 <meta name="keywords" content="<?php echo $metakeyword; ?>" /> 
@@ -17,6 +17,13 @@
 <title><?php echo $metatitle; ?></title>
 <base href="http://<?php echo getenv("HTTP_HOST"); ?>/ewsport/" />
 <link rel="stylesheet" type="text/css" href="css/site.css" />
+<?php 
+	if($_SESSION['lang'] == 'en'){
+		echo '<link rel="stylesheet" type="text/css" href="css/site_en.css" />';
+	}else{
+		echo '<link rel="stylesheet" type="text/css" href="css/site_hu.css" />';
+	}
+?>
 <link rel="stylesheet" type="text/css" href="css/slimbox.css" />
 <?php 
 if (count($sitecss) > 0) {

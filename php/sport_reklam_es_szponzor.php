@@ -2,7 +2,7 @@
 		<div class="content_side clearfix">
 		
 			<div class="box_data"><div class="bgr_top"><div class="bgr_bot clearfix">
-				<div class="ful_reklam">Reklám & Szponzor</div>
+				<div class="ful_reklam"><?php echo $_SESSION['lang'] == 'en' ? 'Advertising & Sponsoration' : 'Reklám & Szponzor'; ?></div>
 				<div class="clear"></div>
 				<div class="article">
 					
