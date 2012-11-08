@@ -1,0 +1,190 @@
+
+/*
+chekbox/radio cuccai *****************************************************************************************************************
+*/
+
+/* Radio button */
+.gvRadio {
+	height: 12px;
+	width: 12px;
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	background-image: url(../images/gvRadio.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-right: 5px;
+	display: block;
+	float: left;
+}
+.gvRadio.checked {background-position: left bottom;}	
+.gvRadio input{
+	background-color:transparent;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	height: 12px;
+	width: 12px;
+	padding: 0px;
+	margin: 0px;
+	border:none;
+	padding-bottom:2px;
+}
+
+#rent_boat_form .gvRadio { background-image: url(../images/gvRadio.rent.boat.form.gif); }
+
+
+
+/* Checkbox */
+span.gvCheck {
+	height: 15px;
+	width: 15px;
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	background-image: url(../img/gvCheck.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-right: 7px;
+	display: block;
+	float: left;
+}
+span.gvCheck.checked {background-position: left bottom;}
+span.gvCheck input {
+	background-color:transparent;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	height: 13px;
+	width: 13px;
+	padding: 0px;
+	margin: 0px;
+	border:none;
+	padding-bottom:2px;
+}
+
+#rent_boat_form .gvCheck { background-image: url(../images/gvCheck.rent.boat.form.gif); }
+
+
+
+
+
+
+
+
+
+
+/*
+select cuccai ************************************************************************************************************************
+*/
+
+/* nem kell ezeket valtoztatni */
+div.gvSelect {padding: 0px;margin: 0px;cursor: pointer;}
+div.gvSelect div.gvS_headArea {padding: 0px;margin: 0px;float: left;}
+div.gvSelect div.gvS_headArea div.gvS_headText {overflow: hidden;white-space: nowrap;float: left;}
+div.gvSelect div.gvS_headArea div.gvS_headArrow {float: left;}
+div.gvSelect div.gvS_optionsArea {overflow: auto;display: none;position: absolute;}
+
+/* alap beallitasok a legordulore */
+div.gvSelect {
+	width: 229px;
+	font-family:ARIALN, Arial, Helvetica, sans-serif;
+	text-align: left;
+	color: #414141;
+	font-size: 12px;
+	float: left;
+	background: url(../img/gvSelect.head_bg.png) no-repeat left top;
+}
+/* feljec terulet */
+div.gvSelect div.gvS_headArea {
+	width: 229px;
+	height: 22px;
+	background: url(../img/gvSelect.head_arrow.png) no-repeat right top;
+}
+/* fejlec szoveg resz */
+div.gvSelect div.gvS_headArea div.gvS_headText {
+	width: 178px;
+	height: 18px;
+	padding: 3px 0px 0px 7px;
+	text-indent:0px;
+	line-height:normal;
+}
+/* fejlec nyil */
+div.gvSelect div.gvS_headArea div.gvS_headArrow {
+	width: 22x;
+	height: 22px;
+}
+/* optionok terulete */
+div.gvSelect div.gvS_optionsArea {
+	width: 202px;
+	max-height: 260px;
+	height: expression( this.scrollHeight > 259 ? "260px" : "auto" ); /* sets max-height for IE */
+	border:1px solid #cdcdcd;
+	/*border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;*/
+	-moz-box-shadow: inset 0 0 1em #fcf5f3;
+	-webkit-box-shadow: inset 0 0 1em #fcf5f3;
+    box-shadow: inset 0 0 1em #fcf5f3;
+	border-top: 0px;
+	background-color: #fff;
+	margin-top:0px;
+	margin-left:3px;
+	z-index:10000!important;
+}
+/* optionok */
+div.gvSelect div.gvS_optionsArea div {
+	padding: 2px 3px 5px 7px;
+	line-height: 14px;
+	font-size: 12px;
+	display: block;
+}
+/* optionok over */
+div.gvSelect div.gvS_optionsArea div.over {
+	/*background-color: #f8b39c;*/
+	background:#1446ce url(../img/gvSelect.head_bg_over.png) repeat-x;
+	color:#fff;
+}
+/* disabled optionok */
+div.gvSelect div.gvS_optionsArea div.disabled {
+	color: #a8a8a8;
+}
+
+
+#search_box div.gvSelect { width:179px; }
+#search_box div.gvSelect div.gvS_headArea { width:179px; }
+#search_box div.gvSelect div.gvS_headArea div.gvS_headText { width:150px; }
+#search_box div.gvSelect div.gvS_optionsArea { width:152px; }
+
+#inquiry_form div.gvSelect { width:179px; }
+#inquiry_form div.gvSelect div.gvS_headArea { width:179px; }
+#inquiry_form div.gvSelect div.gvS_headArea div.gvS_headText { width:150px; }
+#inquiry_form div.gvSelect div.gvS_optionsArea { width:152px; }
+
+#inquiry_form .year div.gvSelect { width:79px; }
+#inquiry_form .year div.gvSelect div.gvS_headArea { width:79px; }
+#inquiry_form .year div.gvSelect div.gvS_headArea div.gvS_headText { width:50px; }
+#inquiry_form .year div.gvSelect div.gvS_optionsArea { width:52px; }
+
+#inquiry_form .month div.gvSelect { width:59px; }
+#inquiry_form .month div.gvSelect div.gvS_headArea { width:59px; }
+#inquiry_form .month div.gvSelect div.gvS_headArea div.gvS_headText { width:30px; }
+#inquiry_form .month div.gvSelect div.gvS_optionsArea { width:32px; }
+
+#inquiry_form .day div.gvSelect { width:59px; }
+#inquiry_form .day div.gvSelect div.gvS_headArea { width:59px; }
+#inquiry_form .day div.gvSelect div.gvS_headArea div.gvS_headText { width:30px; }
+#inquiry_form .day div.gvSelect div.gvS_optionsArea { width:32px; }
+
+
+/* egyedi optionok */
+/*
+div.gvSelect div.custom1 {
+	color: #000000;
+	text-indent: 21px;
+	background: url(img/custom1.gif) no-repeat;
+}
+div.gvSelect div.custom2 {
+	color: #ff2222;
+}*/
+

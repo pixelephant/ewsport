@@ -1,0 +1,124 @@
+input.dashboard,
+select.dashboard {
+	width: 100px;
+}
+
+button.dashboard {
+	background: url(../calendar/dashboard-icon.gif) no-repeat;
+	border: 0;
+	cursor: pointer;
+	float: left;
+	height: 22px;
+	margin-left: 10px;
+	margin-top:-3px;
+	width: 22px;
+}
+input.dashboard {
+	float: left;
+	width: 100px;
+}
+div.dashboard {
+	font-family: tahoma;
+	border:1px solid #000000;
+	background:#efefef;
+	text-align: center;
+	width:200px;
+}	
+	div.dashboard div {
+		
+		cursor: move;
+		overflow: hidden;
+		position: relative;
+		padding:0 20px 0 20px;
+		background:url(../calendar/bgr.gif) repeat-x top;
+		
+	}
+	
+	div.dashboard caption {
+		color: #ffffff;
+		font: bold 12px/17px Tahoma;
+		padding-top: 4px;
+		padding-bottom: 8px;
+		text-align: center;
+		width: 100%;
+		position: relative;
+	}
+	div.dashboard caption a {
+		cursor: pointer;
+		display: block;
+		height: 18px;
+		width: 18px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: -100px;
+		top: 5px;
+	}
+	div.dashboard caption a.prev {
+		background-image: url(../calendar/dashboard-prev.gif);
+		left: 2px;
+	}
+	div.dashboard caption a.next {
+		background-image: url(../calendar/dashboard-next.gif);
+		right: 2px;
+	}
+	div.dashboard caption a:hover {
+		background-position: 0 0px;
+	}
+	div.dashboard caption span {
+		height: 25px;
+		position: relative;
+		text-align: center;
+	}
+	div.dashboard caption span.month {
+		padding-right: 8px;
+	}
+	div.dashboard caption span.month:after {
+		content: ',';
+	}
+
+	div.dashboard table {
+		border: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		cursor: default;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	div.dashboard td,
+	div.dashboard th {
+		border: 0;
+		color: #000000;
+		font: bold 11px Tahoma;
+		height: 22px;
+		text-align: center;
+		width: 22px;
+	}
+	div.dashboard td {
+		color: #666666;
+		font-size: 11px;
+		
+		text-align: center;
+		font-weight:normal;
+	}
+	div.dashboard td.invalid {
+		color: #666666;
+	}
+	div.dashboard td.valid {
+		color: #000000;
+	}
+	div.dashboard td.today {
+		/*color: #000000;*/
+		font-weight: bold;
+		border: #cc0000;
+	}
+	div.dashboard td.active,
+	div.dashboard td.hover {
+		color: #000000;
+		cursor: pointer;
+		text-decoration:underline;
+	}
+	div.dashboard td.active {
+	  background:#cc0000;
+	  color: #ffffff;
+	  text-decoration:none;
+	}

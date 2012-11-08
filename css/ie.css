@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix { zoom: 1; }
+/*#header { background: url('../img/1x1.gif') top left no-repeat; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/bgr.header.png', sizingMethod='image'); }
+.SidebarPeople { background: url('../img/1x1.gif') top left no-repeat; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/SidebarPeople.png', sizingMethod='image'); }
+.left_side_pic { background: url('../img/1x1.gif') top left no-repeat; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/LeftSidePic.png', sizingMethod='image'); }
+*/
+.box_border { behavior:url(css/border-radius.htc); }
+.pager a,
+.pager span.act { behavior:url(css/border-radius.htc); }
+.data_sheet { behavior:url(css/border-radius.htc); }
+.contact_box .pic { behavior:url(css/border-radius.htc); }
+.contact_box .map { behavior:url(css/border-radius.htc); }

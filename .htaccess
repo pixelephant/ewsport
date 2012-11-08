@@ -1,0 +1,12 @@
+
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^ewsport\.hu$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.ewsport\.hu$
+#RewriteRule ^/?$ "http\:\/\/www\.ewutazas\.hu\/sport" [R=301,L]
+
+#order deny,allow
+#deny from all
+RewriteEngine On
+# RewriteRule	^	/aliasrewrite.php?param=$1	[L,QSA]
+RewriteCond	%(REQUEST_FILENAME)	!-f
+RewriteRule	^([0-9-a-zA-Z_/]+)/*$	/ewsport/aliasrewrite.php?param=$1	[L,QSA]

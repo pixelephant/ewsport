@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.h_menu .menu_1,
+.h_menu .menu_1 a { background:url(../img/h.menu.png) no-repeat 0px -78px; width:104px; }
+.h_menu .menu_1 a.act,
+.h_menu .menu_1 a:hover { background:url(../img/h.menu.png) no-repeat 0px -117px; }
+.h_menu .menu_2,
+.h_menu .menu_2 a { background:url(../img/h.menu.png) no-repeat -104px -78px; width:163px; }
+.h_menu .menu_2 a.act,
+.h_menu .menu_2 a:hover { background:url(../img/h.menu.png) no-repeat -104px -117px;}
+.h_menu .menu_3,
+.h_menu .menu_3 a { background:url(../img/h.menu.png) no-repeat -267px -78px; width:171px; }
+.h_menu .menu_3 a.act,
+.h_menu .menu_3 a:hover { background:url(../img/h.menu.png) no-repeat -267px -117px;}
+.h_menu .menu_4,
+.h_menu .menu_4 a { background:url(../img/h.menu.png) no-repeat -438px -78px; width:101px; }
+.h_menu .menu_4 a.act,
+.h_menu .menu_4 a:hover { background:url(../img/h.menu.png) no-repeat -438px -117px;}
+.h_menu .menu_5,
+.h_menu .menu_5 a { background:url(../img/h.menu.png) no-repeat -539px -78px; width:135px; }
+.h_menu .menu_5 a.act,
+.h_menu .menu_5 a:hover { background:url(../img/h.menu.png) no-repeat -539px -117px;}
+.h_menu .menu_6,
+.h_menu .menu_6 a { background:url(../img/h.menu.png) no-repeat -674px -78px; width:182px; }
+.h_menu .menu_6 a.act,
+.h_menu .menu_6 a:hover { background:url(../img/h.menu.png) no-repeat -674px -117px;}
+.h_menu .menu_7,
+.h_menu .menu_7 a { background:url(../img/h.menu.png) no-repeat -856px -78px; width:127px; }
+.h_menu .menu_7 a.act,
+.h_menu .menu_7 a:hover { background:url(../img/h.menu.png) no-repeat -856px -117px;}
+
+.logo,
+.logo a { background:url(../img/logo_sport.jpg) no-repeat; }
