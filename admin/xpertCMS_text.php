@@ -102,10 +102,13 @@ if ($_POST['urlap'] == 1) {
 	$p = "active='$active'";
 	$p .= ",kiemelt='$kiemelt'";
     $p .= ",name='$name'";
+    $p .= ",name_en='$name_en'";
     $p .= ",menuid='$menuid'";
     $p .= ",lead='$elm1'";
+    $p .= ",lead_en='$elm1_en'";
     $p .= ",lead_visible='$lead_visible'";
     $p .= ",text='$elm2'";
+    $p .= ",text_en='$elm2_en'";
     $p .= ",activefromdate='$date2'";
     $p .= ",thumbalign='$thumbalign'";
     $p .= ",thumbalt='$thumbalt'";
@@ -315,10 +318,13 @@ if ($_POST['urlap'] == 1) {
     //      $created=$tmp["created"];
     //      $modified=$tmp["modified"];
     $name = $tmp["name"];
+    $name_en = $tmp["name_en"];
     $menuid = $tmp["menuid"];
     $elm1 = $tmp["lead"];
+    $elm1_en = $tmp["lead_en"];
     $lead_visible = $tmp["lead_visible"];
     $elm2 = $tmp["text"];
+    $elm2_en = $tmp["text_en"];
     $activefromdate = $tmp["activefromdate"];
     $thumbalign = $tmp["thumbalign"];
     $thumbalt = $tmp["thumbalt"];
@@ -369,6 +375,8 @@ $textpath .= "/";
 $cim = kod2tag($cim);
 $elm1 = kod2tag($elm1);
 $elm2 = kod2tag($elm2);
+$elm1_en = kod2tag($elm1_en);
+$elm2_en = kod2tag($elm2_en);
 if ($activefromdate == '0000-00-00') {
 	$activefromdate = '';
 }
@@ -416,7 +424,13 @@ if($sm == 1)echo '<div class="error_form_text">Sikeres mentés!</div>';
 		<div class="text"><label for="name">Cím:</label></div>
 		<div class="input"><input type="text" id="name" title="Nem adtad meg az oldal nevét" value="<?= $name; ?>" name="name" class="required" /></div>
 	<div class="clear"></div>
-	</div>	
+	</div>
+    <!-- angol -->
+    <div class="form">
+        <div class="text"><label for="name">Cím angolul:</label></div>
+        <div class="input"><input type="text" id="name_en" title="Nem adtad meg az oldal nevét" value="<?= $name_en; ?>" name="name_en" class="required" /></div>
+    <div class="clear"></div>
+    </div>  
 	<div class="form form_bgr">
 		<div class="text"><label for="ismerteto_kep">Ismertető kép:</label>
 <?
@@ -446,10 +460,22 @@ if (file_exists($textpath . "leads.jpg")) {
 		</div>
 	<div class="clear"></div>
 	</div>
+    <!-- angol -->
+    <div class="form">
+        <div class="text"><label for="fokat">Bevezető angolul:</label></div>
+        <div class="szovegmezo">
+          <textarea name="elm1_en" id="elm1_en" rows="5" cols="25" style="width: 100%" class="mcelead_editor"><?=$elm1_en;?></textarea><br />
+        </div>
+    <div class="clear"></div>
+    </div>
 	<div class="form form_bgr">
 		<div class="text"><label for="fokat">Szöveg:</label></div>
 		<div class="szovegmezo"><textarea name="elm2" id="elm2" rows="35" cols="25" style="width: 100%" class="mcefull_editor"><?=$elm2;?></textarea></div>
 	</div>
+    <div class="form form_bgr">
+        <div class="text"><label for="fokat">Szöveg angolul:</label></div>
+        <div class="szovegmezo"><textarea name="elm2_en" id="elm2_en" rows="35" cols="25" style="width: 100%" class="mcefull_editor"><?=$elm2_en;?></textarea></div>
+    </div>
 <table cellpadding="2" cellspacing="0" border="0" style="margin-left:10px;">
 <?php
 if (is_array($kepek))
