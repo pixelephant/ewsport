@@ -6,16 +6,17 @@
 					<div class="ful_rolunk">About us</div>
 					<div class="clear"></div>
 					<div class="article">
-						About us.English content.
-						<br />
-						Irodánk a sport minden szegmensében vállal szerepet. Fő tevékenységünk az edzőtáborok szervezése Magyarországon és külföldön egyaránt. Elsősorban labdarúgó csapatoknak szervezünk edzőtáborokat, de más sportágak versenyzőinek is bonyolítottuk már a felkészülésüket. Mint például, atlétika, röplabda, kosárlabda.<br />
-						<br />
-						Az edzőtáborok szervezését minden korosztályban és minden sportágban vállaljuk.<br />
-						<br />
-						Foglalkozunk reklámfelületek értékesítésével, szponzorok közvetítésével különböző klubokhoz, sport szervezetekhez.<br />
-						A tevékenységeink körébe tartozik még, játékosok, edzők, gyúrók, orvosok menedzselése, magyarországi és külföldi munkalehetőségek közvetítése.<br />
-						<br />
-						A cégünk, egy munkatársunk révén rendelkezik FIFA Licensszel. <br />
+						The Hungasport, established in 1997, was the predecessor of our company what works also today. After 12 years successful of activity, change happened.  <br>
+						<br>
+						From the beginning of 2009 we continue our work under the name East-West Sport. Our office undertakes  a role in all of the segments of the sport. The organization of the training camps is our capital activity on Hungary and foreign countries equally. <br>
+						<br>
+						We organize training camps for primarily football teams, but we already organized the preparation for cometitors of the other sports like athletic, volleyball, basketball etc. <br>
+						<br>
+						We undertake the organization of the training camps in all age groups and all sports. <br>
+						<br>
+						Our other profile is the marketing, the realization of advertisement boards, sponsors to different clubs and sport organizations. <br>
+						<br>
+						Our company also possesses FIFA Licence. <br>
 						<br />
 						<br />
 						<img src="img/rolunk_foto.jpg" alt="" />
