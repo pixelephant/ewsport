@@ -408,58 +408,6 @@
 						<div class="clear10"></div>		
 
 						<br>
-						<strong class="red">Training Camps in Hungary</strong> <br>
-						<strong>Telki:</strong> <br>
-						Hungarian Football Association Globall Football Park & Sportcenter exclusive aggrement <br>
-						<br>
-						<strong>Bük:</strong> <br>
-						Répce Gold Hotel <br>
-						Büki Sport Centrum - exclusive aggrement <br>
-						<br>
-						<strong>Sopron:</strong> <br>
-						Fagus Hotel Sopron <br>
-						Soproni Stadion - exclusive aggrement <br>
-						<br>
-						<strong>Tata:</strong>
-						Olympia Sport Centre <br>
-						<br>
-						<strong>Győr:</strong> <br>
-						Rába Hotel - Konferencia Hotel - Amstel Hattyú Hotel <br>
-						Sportpályák Győrben: ETO Park - Abda Sport Centrum <br>
-
-						<div class="clear10"></div>
-						<strong class="red">Training camps abroad:</strong> <br>
-						<strong class="red">UNITED ARAB EMIRATES:</strong> <br>
-
-						<strong>Dubai:</strong> <br>
-						MÖVENPICK HOTEL <br>
-						AL NASR Stadium <br>
-						METROPOLITAN HOTEL <br>
-						AL WASL Stadium <br>
-						<br>
-						<strong>Abu Dhabi:</strong> <br>
-						POLICE ACADEMY SPORT CENTRE <br>
-						<br>
-						<strong class="red">TURKEY:</strong> <br>
-						<strong>Kiris:</strong> <br>
-						LIMRA HOTEL – 2 excellent quality fields in the hotel <br>
-						<br>
-						<strong>Belek:</strong> <br>
-						ARCADIA HOTEL <br>
-						<br>
-						ATLANTIS HOTEL <br>
-						1 field in the ARCADIA Hotel. <br>
-						13 excellent quality fields in the Olympic Centre – 10 min. from Arcadia Hotel, 15 min. from Atlantis Hotel. <br>
-						<br>
-						<strong class="red">CYPRUS:</strong> <br>
-						<strong>Larnaca:</strong> <br>
-						SANDY BEACH HOTEL <br>
-						LORDOS BEACH HOTEL <br>
-						St. ELIAS SPORT CENTRUM – field 7 min. from the hotels. <br>
-						ALFA SPORT CENTRUM - 5 fields 20 min. from the hotels. <br>
-						<br>
-						<strong>Agia Napa:</strong> <br>
-						ADAMS BEACH HOTEL - 13 fields 5 minutes from the Hotel. <br>
 
 					<?php }else{ ?>
 						<strong class="red">Külföldi edzőtáborokban illetve tornákon:</strong><br />
