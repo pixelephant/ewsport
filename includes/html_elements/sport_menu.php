@@ -2,14 +2,21 @@
 		<?php $lang = ($_SESSION['lang'] == 'en' ? 'en/' : ''); ?>
 
 		<?php 
-			$current = empty($params[1]) ? '' : implode('/', $params);
+			$current = implode('/', $params);
+			if($_SESSION['lang'] == 'en'){
+				$en = 'en/' . $current;
+				$hu = str_replace('en/', '', $current);
+			}else{
+				$en = 'en/' . $current;
+				$hu = $current;
+			}
 		?>
 
 		<div class="header">
 			<div class="">
 			<ul class="lang">
-				<li class=""><a href="/sport/<?php echo $current; ?>"><img src="img/hu.png" alt="HU"></a></li>
-				<li class=""><a href="/en/sport/<?php echo $current; ?>"><img src="img/en.png" alt="EN"></a></li>
+				<li class=""><a href="/<?php echo $hu; ?>"><img src="img/hu.png" alt="HU"></a></li>
+				<li class=""><a href="/<?php echo $en; ?>"><img src="img/en.png" alt="EN"></a></li>
 			</ul>
 			</div>
 			<div class="clear"></div>
