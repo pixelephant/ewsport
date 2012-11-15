@@ -89,39 +89,6 @@ a:hover { color:#06bcfc; text-decoration:underline; }
 .h_menu_top .menu_2 a { background:url(../img/h.menu.top.bg.png) no-repeat -70px 0; width:58px; }
 .h_menu_top .menu_2 a:hover { background:url(../img/h.menu.top.bg.png) no-repeat -70px -27px; }
 
-.h_menu { height:39px; overflow:hidden; margin-bottom:13px; }
-.h_menu ul { margin:0px; padding:0px; list-style:none; }
-.h_menu ul li { float:left; display:inline; height:39px; }
-.h_menu ul li a { display:block; overflow:hidden; text-indent:-1000em; height:39px; }
-.h_menu .menu_1,
-.h_menu .menu_1 a { background:url(../img/h.menu.png) no-repeat 0px 0px; width:130px; }
-.h_menu .menu_1 a.act,
-.h_menu .menu_1 a:hover { background:url(../img/h.menu.png) no-repeat 0px -39px;}
-.h_menu .menu_2,
-.h_menu .menu_2 a { background:url(../img/h.menu.png) no-repeat -130px 0px; width:147px; }
-.h_menu .menu_2 a.act,
-.h_menu .menu_2 a:hover { background:url(../img/h.menu.png) no-repeat -130px -39px;}
-.h_menu .menu_3,
-.h_menu .menu_3 a { background:url(../img/h.menu.png) no-repeat -277px 0px; width:145px; }
-.h_menu .menu_3 a.act,
-.h_menu .menu_3 a:hover { background:url(../img/h.menu.png) no-repeat -277px -39px;}
-.h_menu .menu_4,
-.h_menu .menu_4 a { background:url(../img/h.menu.png) no-repeat -422px 0px; width:168px; }
-.h_menu .menu_4 a.act,
-.h_menu .menu_4 a:hover { background:url(../img/h.menu.png) no-repeat -422px -39px;}
-.h_menu .menu_5,
-.h_menu .menu_5 a { background:url(../img/h.menu.png) no-repeat -590px 0px; width:117px; }
-.h_menu .menu_5 a.act,
-.h_menu .menu_5 a:hover { background:url(../img/h.menu.png) no-repeat -590px -39px;}
-.h_menu .menu_6,
-.h_menu .menu_6 a { background:url(../img/h.menu.png) no-repeat -707px 0px; width:137px; }
-.h_menu .menu_6 a.act,
-.h_menu .menu_6 a:hover { background:url(../img/h.menu.png) no-repeat -707px -39px;}
-.h_menu .menu_7,
-.h_menu .menu_7 a { background:url(../img/h.menu.png) no-repeat -844px 0px; width:139px; }
-.h_menu .menu_7 a.act,
-.h_menu .menu_7 a:hover { background:url(../img/h.menu.png) no-repeat -844px -39px;}
-
 .content_side { clear:both; width:984px; background:url(../img/content.side.bg.jpg) no-repeat left bottom; padding-bottom:55px; }
 
 .left_side { float:left; width:225px; display:inline; margin-left:8px; }
