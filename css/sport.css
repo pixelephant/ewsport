@@ -105,3 +105,11 @@ background: #174ECA;
 .h_menu ul li div li{
 width: 224px;
 }
+
+.quote{
+padding: 30px;
+background: #eee;
+font-style: italic;
+color: black;
+margin:30px 0;
+}

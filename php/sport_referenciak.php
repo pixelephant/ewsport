@@ -23,17 +23,6 @@
 						</div>
 						<br>
 
-						<div class="quote">
-							Dear Mr. Michael Szűcs! <br>
-							<br>
-							Let me say thank you for your excellent co-ordination and great organization. We are so much appreciated for the possibility what you offered for us, as we could represented ourselves on this tournament in the capital of UAE from 11.04.2002. to 21.04.2002. We could represented Hungary there. It was unforgetable memory to all of us for a life time. <br>
-							<br>
-							Warm thanks: <br>
-							<br>
-							Gábor Birta <br>
-							Győri ETO president of juniors and delegation leader <br>
-						</div>
-
 						<div class="table_style table_style_bg clearfix">
 							<div class="col_1">Győri ETO	U-14	AL-WAHDA	cup</div>
 							<div class="col_2">2002. Abu-Dhabi</div>
@@ -71,18 +60,7 @@
 							<div class="col_2">Sandy Beach Hotel	2003 january</div>
 						</div>
 
-						<div class="quote">
-							Dear Mr. Michael Szűcs! <br>
-							<br>
-							Let me convey my appreciation to you under the name of Ferencvárosi TC, for your excellent work and organization. In the last 2 years our football team prepared themselves by you on Cyprus. Because of your great and professional training camp, the team did well in the championship. I have to mention your knowledge what you represented as you organized everything. <br>
-							You co-ordinated excellent the programs with technical staff, found strong opponents for the training matches what we have been played on professional quality fields. <br>
-							What also important and mentionable is your care and attention what you represented with the players and also with the officers during free times. It was very helpful for all of us. Thank you so much! <br>
-							<br>
-							Regards: <br>
-							<br>
-							József Szeiler <br>
-							Ferencvárosi TC, Managing Director <br>
-						</div>
+						
 
 						<div class="table_style clearfix">
 							<div class="col_1">BODAJK FC</div>
@@ -117,18 +95,7 @@
 							<div class="col_2">2006 ATLANTIS HOTEL</div>
 						</div>
 
-						<div class="quote">
-							Dear Mr. Michael Szűcs! <br>
-							<br>
-							I would like to convey my honourable mention and appreciation under the name of Bodajk FC and than BFC Siófok, for the excellent work and organization what you provided. <br>
-							We had excellent circumstances for the preparation at both places, on Cyprus and in Turkey as well. <br>
-							Just as the deputy president of the Hungarian Football Association, I would like to say thank you for the invitation of the U-17 in the UAE, and also for the delegation what could be there with the team free of charge thanks to your great connections there. <br>
-							<br>
-							Best regards: <br>
-							<br>
-							Ferenc Nemes <br>
-							H.F.A. Deputy President<br>
-						</div>
+						
 
 						<div class="table_style table_style_bg clearfix">
 							<div class="col_1">DEBRECEN</div>
@@ -199,18 +166,7 @@
 						<div class="clear10"></div>
 						<div class="clear10"></div>
 
-						<div class="quote">
-							East-West Sport kft <br>
-							Michael Szűcs <br>
-							Dear Managing Director! <br>
-							<br>
-							Let us convey our  appreciations under the name of the Hungarian Football Association II. Division Committee and also the players and officers of the II. Division Selected Team, for the excellent training camp in Turkey  and also for the 4 great matches what you organized for us.For the circumstances what we got there and for your kindly help.  <br>
-							The East-West Kft. has been already great and correct partner of the Hungarian Football Association before, and we hope this relationship will stay like this in the future as well. <br>
-							I think you and me are on the same opinion about the footbal, about the hungarian football. The business philosophy of your company what is based on honourable work, quality services is working good. I would be happy to coorporate with you and your company in the future as well.  <br>
-							Thank you so much and kindly regards: <br>
-							Róbert Kutasi<br>
-							H.F.A. President of II. Division Committee<br>
-						</div>
+						
 
 						<div class="table_style table_style_bg clearfix">
 							<div class="col_1">GYŐRI ETO FC</div>
@@ -408,6 +364,57 @@
 						<div class="clear10"></div>		
 
 						<br>
+						<strong class="red">Reference letters:</strong><br />
+
+						<div class="quote">
+							Dear Mr. Michael Szűcs! <br>
+							<br>
+							Let me say thank you for your excellent co-ordination and great organization. We are so much appreciated for the possibility what you offered for us, as we could represented ourselves on this tournament in the capital of UAE from 11.04.2002. to 21.04.2002. We could represented Hungary there. It was unforgetable memory to all of us for a life time. <br>
+							<br>
+							Warm thanks: <br>
+							<br>
+							Gábor Birta <br>
+							Győri ETO president of juniors and delegation leader <br>
+						</div>
+
+						<div class="quote">
+							Dear Mr. Michael Szűcs! <br>
+							<br>
+							Let me convey my appreciation to you under the name of Ferencvárosi TC, for your excellent work and organization. In the last 2 years our football team prepared themselves by you on Cyprus. Because of your great and professional training camp, the team did well in the championship. I have to mention your knowledge what you represented as you organized everything. <br>
+							You co-ordinated excellent the programs with technical staff, found strong opponents for the training matches what we have been played on professional quality fields. <br>
+							What also important and mentionable is your care and attention what you represented with the players and also with the officers during free times. It was very helpful for all of us. Thank you so much! <br>
+							<br>
+							Regards: <br>
+							<br>
+							József Szeiler <br>
+							Ferencvárosi TC, Managing Director <br>
+						</div>
+
+						<div class="quote">
+							Dear Mr. Michael Szűcs! <br>
+							<br>
+							I would like to convey my honourable mention and appreciation under the name of Bodajk FC and than BFC Siófok, for the excellent work and organization what you provided. <br>
+							We had excellent circumstances for the preparation at both places, on Cyprus and in Turkey as well. <br>
+							Just as the deputy president of the Hungarian Football Association, I would like to say thank you for the invitation of the U-17 in the UAE, and also for the delegation what could be there with the team free of charge thanks to your great connections there. <br>
+							<br>
+							Best regards: <br>
+							<br>
+							Ferenc Nemes <br>
+							H.F.A. Deputy President<br>
+						</div>
+
+						<div class="quote">
+							East-West Sport kft <br>
+							Michael Szűcs <br>
+							Dear Managing Director! <br>
+							<br>
+							Let us convey our  appreciations under the name of the Hungarian Football Association II. Division Committee and also the players and officers of the II. Division Selected Team, for the excellent training camp in Turkey  and also for the 4 great matches what you organized for us.For the circumstances what we got there and for your kindly help.  <br>
+							The East-West Kft. has been already great and correct partner of the Hungarian Football Association before, and we hope this relationship will stay like this in the future as well. <br>
+							I think you and me are on the same opinion about the footbal, about the hungarian football. The business philosophy of your company what is based on honourable work, quality services is working good. I would be happy to coorporate with you and your company in the future as well.  <br>
+							Thank you so much and kindly regards: <br>
+							Róbert Kutasi<br>
+							H.F.A. President of II. Division Committee<br>
+						</div>
 
 					<?php }else{ ?>
 						<strong class="red">Külföldi edzőtáborokban illetve tornákon:</strong><br />

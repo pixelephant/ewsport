@@ -8,8 +8,8 @@
 		<div class="header">
 			<div class="">
 			<ul class="lang">
-				<li class=""><a href="/<?php echo $current; ?>"><img src="img/hu.png" alt="HU"></a></li>
-				<li class=""><a href="/en/<?php echo $current; ?>"><img src="img/en.png" alt="EN"></a></li>
+				<li class=""><a href="/sport/<?php echo $current; ?>"><img src="img/hu.png" alt="HU"></a></li>
+				<li class=""><a href="/en/sport/<?php echo $current; ?>"><img src="img/en.png" alt="EN"></a></li>
 			</ul>
 			</div>
 			<div class="clear"></div>
