@@ -1,10 +1,15 @@
 		<!-- HEADER -->
 		<?php $lang = ($_SESSION['lang'] == 'en' ? 'en/' : ''); ?>
+
+		<?php 
+			$current = empty($params[1]) ? '' : implode('/', $params);
+		?>
+
 		<div class="header">
-			<div class="h_menu_top">
-			<ul>
-				<li class="menu_1"><a href="/splash.html">home</a></li>
-				<li class="menu_2"><a href="/sport/kapcsolat/">e-mail</a></li>
+			<div class="">
+			<ul class="lang">
+				<li class=""><a href="/<?php echo $current; ?>"><img src="img/hu.png" alt="HU"></a></li>
+				<li class=""><a href="/en/<?php echo $current; ?>"><img src="img/en.png" alt="EN"></a></li>
 			</ul>
 			</div>
 			<div class="clear"></div>

@@ -67,3 +67,17 @@ display: block;
  background-image:      -o-linear-gradient(top, #09DDFE, #039CFA); 
  background-image:         linear-gradient(to bottom, #09DDFE, #039CFA);
 }
+
+.lang{
+float: right;
+list-style: none;
+overflow: hidden;
+margin-bottom: 25px;
+margin-top:7px;
+position: relative;
+z-index: 1000001;
+}
+.lang li{
+float: left;
+margin: 0 5px;
+}
