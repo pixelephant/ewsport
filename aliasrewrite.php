@@ -176,6 +176,12 @@ if (count($params) == 3) {
 			include 'index.php';
 			die();
 		}
+		elseif($params[2] == 'hungaroring'){
+			$_GET ['menu_type'] = 2;
+			$_GET ['page'] = 'php/hungaroring.php';
+			include 'index.php';
+			die();
+		}
 	}
 }
 if (count($params) == 4) {

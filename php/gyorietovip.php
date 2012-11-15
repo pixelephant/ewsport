@@ -22,9 +22,10 @@
 						<img src="img/rolunk_foto.jpg" alt="" />
 					</div>
 				<?php }else{ ?>
-					<div class="ful_rolunk">Béreljen VIP páholyt és hirdetési felületet a Győri ETO FC stadionjában</div>
+					<div class="ful_rolunk">Győri Eto</div>
 					<div class="clear"></div>
 					<div class="article">
+						<h2>Béreljen VIP páholyt és hirdetési felületet a Győri ETO FC stadionjában</h2>
 						<p>4.000.000,-Ft + áfa - A kapuval és a tizenhatos vonallal egy magasságban</p>
 						<p>5.000.000,-Ft + áfa - A térfél közepe, a tizenhatos vonal és a kezdőkőr közötti terület</p>
 						<p>6.000.000,-Ft + áfa - A kezdőkörrel szemben a pálya közepén lévő páholy</p>

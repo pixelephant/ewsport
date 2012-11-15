@@ -21,31 +21,49 @@
  .h_menu ul{
  overflow:hidden;
  background-color: #46C3EF;
- background-image: -webkit-gradient(linear, left top, left bottom, from(#46C3EF), to(#174ECA)); /* Safari 4+, Chrome */
- background-image: -webkit-linear-gradient(top, #46C3EF, #174ECA); /* Chrome 10+, Safari 5.1+, iOS 5+ */
- background-image:    -moz-linear-gradient(top, #46C3EF, #174ECA); /* Firefox 3.6-15 */
- background-image:      -o-linear-gradient(top, #46C3EF, #174ECA); /* Opera 11.10-12.00 */
- background-image:         linear-gradient(to bottom, #46C3EF, #174ECA); /* Firefox 16+, IE10, Opera 12.50+ */
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#46C3EF), to(#174ECA)); 
+ background-image: -webkit-linear-gradient(top, #46C3EF, #174ECA); 
+ background-image:    -moz-linear-gradient(top, #46C3EF, #174ECA); 
+ background-image:      -o-linear-gradient(top, #46C3EF, #174ECA); 
+ background-image:         linear-gradient(to bottom, #46C3EF, #174ECA);
+ margin-bottom: 15px;
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+ -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
-.h_menu ul li{
-background:none;
+.h_menu li{
+background: none;
+float: left;
+width: 140px;
+list-style: none;
+text-align: center;
+}
+
+.menu_1,.menu_2{
+width: 100px !important;
+}
+
+.menu_6{
+width:224px !important;
 }
 
 .h_menu ul li a{
-text-indent: none;
+text-indent: 0;
 font-size: 13px;
 text-transform: uppercase;
 text-align: center;
 line-height: 39px;
 color: #fff;
+text-decoration: none;
+display: block;
 }
 
 .h_menu ul li:hover,.h_menu ul li a.act{
  background-color: #09DDFE;
- background-image: -webkit-gradient(linear, left top, left bottom, from(#09DDFE), to(#039CFA)); /* Safari 4+, Chrome */
- background-image: -webkit-linear-gradient(top, #09DDFE, #039CFA); /* Chrome 10+, Safari 5.1+, iOS 5+ */
- background-image:    -moz-linear-gradient(top, #09DDFE, #039CFA); /* Firefox 3.6-15 */
- background-image:      -o-linear-gradient(top, #09DDFE, #039CFA); /* Opera 11.10-12.00 */
- background-image:         linear-gradient(to bottom, #09DDFE, #039CFA); /* Firefox 16+, IE10, Opera 12.50+ */
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#09DDFE), to(#039CFA)); 
+ background-image: -webkit-linear-gradient(top, #09DDFE, #039CFA); 
+ background-image:    -moz-linear-gradient(top, #09DDFE, #039CFA); 
+ background-image:      -o-linear-gradient(top, #09DDFE, #039CFA); 
+ background-image:         linear-gradient(to bottom, #09DDFE, #039CFA);
 }
