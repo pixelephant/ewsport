@@ -10,7 +10,7 @@
 							<h6>EW Utazási és Sport Iroda Kft.</h6>
 							
 							1126. Budapest, Dolgos utca 2/2.<br />
-							( MOM PARK melletti sétány )<br />
+							( MOM PARK )<br />
 							<br />
 							<div class="clear"></div>
 							<span class="left_text">Fax:</span>
