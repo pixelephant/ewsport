@@ -164,13 +164,13 @@ if (count($params) == 3) {
 			include 'index.php';
 			die();
 		}
-		if($params[2] == 'fcbarcelona'){
-			$_GET ['menu_type'] = 2;
-			$_GET ['page'] = 'php/fcbarcelona.php';
-			include 'index.php';
-			die();
-		}
-		elseif($params[2] == 'gyorietovip'){
+		// if($params[2] == 'fcbarcelona'){
+		// 	$_GET ['menu_type'] = 2;
+		// 	$_GET ['page'] = 'php/fcbarcelona.php';
+		// 	include 'index.php';
+		// 	die();
+		// }
+		if($params[2] == 'gyorietovip'){
 			$_GET ['menu_type'] = 2;
 			$_GET ['page'] = 'php/gyorietovip.php';
 			include 'index.php';

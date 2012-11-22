@@ -166,8 +166,6 @@
 						<div class="clear10"></div>
 						<div class="clear10"></div>
 
-						
-
 						<div class="table_style table_style_bg clearfix">
 							<div class="col_1">GYŐRI ETO FC</div>
 							<div class="col_2">2011 ARCADIA HOTEL</div>
@@ -179,6 +177,49 @@
 							<div class="col_2">2011 ARCADIA HOTEL</div>
 							<div class="clear5"></div>
 						</div>
+
+						<div class="table_style clearfix">
+							<div class="col_1">HUNGARIAN NB II SELECTION</div>
+							<div class="col_2">2012. JANUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">FERENCVÁROS FC</div>
+							<div class="col_2">2012. JANUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">GYŐRI ETO FC</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">MTK BUDAPEST FC</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">PAKSI FC</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">ÚJPEST FC</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">DIÓSGYŐRI VTK</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">DEBRECENI VSC</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">FERENCVÁROS U-19</div>
+							<div class="col_2">2012. FEBRUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="clear10"></div>
+						<div class="clear10"></div>
+						<strong class="red">HUNGARY:</strong>
+						<div class="clear5"></div>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">ÚJPEST</div>
+							<div class="col_2">2012. JANUARY BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="clear10"></div>
+						<div class="clear10"></div>
 
 						<br>
 						<strong class="red">GREECE:</strong>
@@ -348,7 +389,7 @@
 						<div class="clear10"></div>		
 
 						<strong class="red">2011. Paksi FC European League Qualifying Rounds Offical Tour Operator. :</strong>
-						<div class="table_style clearfix">
+						<div class="table_style table_style_bg clearfix">
 							<div class="col_1">1st round Andorra</div>
 							<div class="col_2">Santa Coloma FC</div>
 							<div class="clear5"></div>
@@ -362,6 +403,26 @@
 
 						<div class="clear10"></div>
 						<div class="clear10"></div>		
+
+						<div class="table_style clearfix">
+							<div class="col_1">EMIRATES NATIONAL TEAM U-15</div>
+							<div class="col_2">2012 TELKI EDZŐCENTRUM – FAGUS HOTEL SOPRON</div>
+							<div class="clear5"></div>
+							<div class="col_1">OMAN NATIONAL TEAM</div>
+							<div class="col_2">2012 TELKI EDZŐCENTRUM – CARAMELL HOTEL BÜK</div>
+							<div class="clear5"></div>
+							<div class="col_1">FUJAIRAH CLUB</div>
+							<div class="col_2">2012 EGER PARK HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">BANI YAS CLUB</div>
+							<div class="col_2">BÜKI DANUBIUS HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">SHARJAH CLUB  U-15</div>
+							<div class="col_2">SZIESZTA HOTEL SOPRON</div>
+							<div class="clear5"></div>
+							<div class="col_1">SHARJAH CLUB U-17 AND U-19</div>
+							<div class="col_2">BÜKI RÉPCE GOLD HOTEL</div>
+						</div>
 
 						<br>
 						<strong class="red">Reference letters:</strong><br />
@@ -554,6 +615,63 @@
 							<div class="col_2">2010 ARCADIA HOTEL</div>
 							<div class="clear5"></div>
 						</div>
+						<div class="table_style clearfix">
+							<div class="col_1">MTK BUDAPEST FC</div>
+							<div class="col_2">2011 ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">PAKSI FC</div>
+							<div class="col_2">2011 ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">MAGYAR NB II. VÁLOGATOTT</div>
+							<div class="col_2">2011 ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">DEBRECENI VSC</div>
+							<div class="col_2">2011 ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">GYŐRI ETO FC</div>
+							<div class="col_2">2011 ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">MAGYAR NB II LABDARÚGÓ VÁLOGATOTT</div>
+							<div class="col_2">2012. JANUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">FERENCVÁROS</div>
+							<div class="col_2">2012. JANUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">GYŐRI ETO FC</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">MTK BUDAPEST FC</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">PAKSI FC</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">ÚJPEST FC</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">DIÓSGYŐRI VTK</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">DEBRECENI VSC</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">FERENCVÁROS U-19</div>
+							<div class="col_2">2012. FEBRUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
+						<div class="clear10"></div>
+						<div class="clear10"></div>
+						<strong class="red">Magyarország:</strong>
+						<div class="clear5"></div>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">ÚJPEST</div>
+							<div class="col_2">2012. JANUÁR BELEK - ARCADIA HOTEL</div>
+							<div class="clear5"></div>
+						</div>
 						<div class="clear10"></div>
 						<div class="clear10"></div>
 						<strong class="red">Görögország:</strong>
@@ -723,6 +841,45 @@
 							<div class="clear5"></div>
 							<div class="col_1">AL WAHDA CLUB U- 18</div>
 							<div class="col_2">2010 SOPRON FAGUS HOTEL</div>
+						</div>
+
+						<div class="clear10"></div>
+						<div class="clear10"></div>		
+
+						<strong class="red">2011. EL selejtezők - Paksi FC :</strong>
+						<div class="table_style table_style_bg clearfix">
+							<div class="col_1">1. forduló Andorra</div>
+							<div class="col_2">Santa Coloma FC</div>
+							<div class="clear5"></div>
+							<div class="col_1">2. forduló Norvégia</div>
+							<div class="col_2">Tromso</div>
+							<div class="clear5"></div>
+							<div class="col_1">3. forduló Skócia</div>
+							<div class="col_2">Hearts FC.</div>
+							<div class="clear5"></div>
+						</div>
+
+						<div class="clear10"></div>
+						<div class="clear10"></div>
+
+						<div class="table_style clearfix">
+							<div class="col_1">EMIRÁTUSI LABDARÚGÓ VÁLOGATOTT  U-15</div>
+							<div class="col_2">2012 TELKI EDZŐCENTRUM – FAGUS HOTEL SOPRON</div>
+							<div class="clear5"></div>
+							<div class="col_1">OMÁNI LABDARÚGÓ VÁLOGATOTT</div>
+							<div class="col_2">2012 TELKI EDZŐCENTRUM – CARAMELL HOTEL BÜK</div>
+							<div class="clear5"></div>
+							<div class="col_1">FUJAIRAH CLUB</div>
+							<div class="col_2">2012 EGER PARK HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">BANI YAS CLUB</div>
+							<div class="col_2">BÜKI DANUBIUS HOTEL</div>
+							<div class="clear5"></div>
+							<div class="col_1">SHARJAH CLUB  U-15</div>
+							<div class="col_2">SZIESZTA HOTEL SOPRON</div>
+							<div class="clear5"></div>
+							<div class="col_1">SHARJAH CLUB U-17 ÉS U-19</div>
+							<div class="col_2">BÜKI RÉPCE GOLD HOTEL</div>
 						</div>
 					<?php } ?>
 				</div>

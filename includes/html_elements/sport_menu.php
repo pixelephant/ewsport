@@ -32,7 +32,6 @@
 					<a href="/<?php echo $lang; ?>sport/reklam_es_szponzor/"<?php if ($params [1] == 'reklam_es_szponzor') echo ' class="act"'; ?>><?php echo $_SESSION['lang'] == 'en' ? 'Advertising & Sponsorship' : 'Reklám & Szponzor'; ?></a>
 					<div>
 						<ul>
-							<li><a href="/<?php echo $lang; ?>sport/reklam_es_szponzor/fcbarcelona">FC Barcelona</a></li>
 							<li><a href="/<?php echo $lang; ?>sport/reklam_es_szponzor/gyorietovip">Győri ETO VIP</a></li>
 							<li><a href="/<?php echo $lang; ?>sport/reklam_es_szponzor/hungaroring">Hungaroring</a></li>
 						</ul>

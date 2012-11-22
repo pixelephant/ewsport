@@ -1,11 +1,13 @@
 <?php 
-// $tmp_cikk = gsql_numassoc ("SELECT * FROM nmTexts WHERE url=\"{$params [2]}\"");
+$tmp_cikk = gsql_numassoc ("SELECT * FROM nmTexts WHERE url=\"{$params [2]}\"");
 
-if($_SESSION['lang'] == 'en'){
-	$tmp_cikk = gsql_numassoc ("SELECT text_en AS text, lead_en AS lead, name_en AS name, url, id, activefromdate FROM nmTexts WHERE url=\"{$params [2]}\"");
-}else{
-	$tmp_cikk = gsql_numassoc ("SELECT * FROM nmTexts WHERE url=\"{$params [2]}\"");
-}
+/* Ideiglenesen csak magyar tartalom */
+// if($_SESSION['lang'] == 'en'){
+// 	$tmp_cikk = gsql_numassoc ("SELECT text_en AS text, lead_en AS lead, name_en AS name, url, id, activefromdate FROM nmTexts WHERE url=\"{$params [2]}\"");
+// }else{
+// 	$tmp_cikk = gsql_numassoc ("SELECT * FROM nmTexts WHERE url=\"{$params [2]}\"");
+// }
+/* Vége */
 $text = __gettext($tmp_cikk [0] ['id']);
 
 //var_dump($text);

@@ -1,9 +1,10 @@
 <?php 
+/*
 if($_SESSION['lang'] == 'en'){
 	$tmp_hirek = gsql_numassoc ("SELECT lead_en AS lead, name_en AS name, url, id, activefromdate FROM nmTexts WHERE menuid=9 ORDER BY activefromdate DESC");
-}else{
+}else{*/
 	$tmp_hirek = gsql_numassoc ("SELECT * FROM nmTexts WHERE menuid=9 ORDER BY activefromdate DESC");
-}
+//}
 	
 $lang = ($_SESSION['lang'] == 'en' ? 'en/' : '');
 ?>
