@@ -26,7 +26,7 @@
 							<li>Possibility for 4 cars  to park under the VIP</li>
 							<li>Representing the company’s name, logo, or commercial on board in the stadium</li>
 						</ul>
-						<p>For further details please <a href="<?php echo $lang; ?>/kapcsolat">contact us</a>.</p>
+						<p>For further details please <a href="<?php echo $lang; ?>/sport/kapcsolat">contact us</a>.</p>
 						<div class="eto">
 							<img src="img/gyorietovip/3.jpg" alt="" />
 							<img src="img/gyorietovip/4.jpg" alt="" />
@@ -64,7 +64,7 @@
 							<li>négy autó belső parkolási lehetősége, a VIP alatt</li>
 							<li>a cég logójának, ( tábla reklámjának) kihelyezése a stadionba a TV által jól látható helyre</li>
 						</ul>
-						<p>További részletekről érdeklődjön <a href="<?php echo $lang; ?>/kapcsolat">irodánkban, illetve elérhetőségeinken</a>.</p>
+						<p>További részletekről érdeklődjön <a href="<?php echo $lang; ?>/sport/kapcsolat">irodánkban, illetve elérhetőségeinken</a>.</p>
 						<div class="eto">
 							<img src="img/gyorietovip/3.jpg" alt="" />
 							<img src="img/gyorietovip/4.jpg" alt="" />
